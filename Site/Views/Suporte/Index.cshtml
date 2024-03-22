@@ -1,0 +1,38 @@
+﻿@* @using Intranet.Get
+@{
+    ViewData["Title"] = "Suporte";
+    var Suporte = new Suporte();
+}
+<div class="titulo"><a>Suporte</a></div>
+<hr color="OrangeRed">
+<br />
+<div class="grid">
+    @foreach (var item in Suporte.PdfDic)
+    {
+        <div class="cartao suporte">
+            <table>
+                <thead>
+                    <tr>
+                        <th>@item.Key</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="lista">
+                                @foreach (var file in item.Value)
+                                {
+                                    <a href="/pdf/@(item.Key)/@(file).pdf" target="_blank"><span>@file</span><br /><br /></a>
+                                }
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+
+
+ *@

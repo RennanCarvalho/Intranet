@@ -1,0 +1,68 @@
+﻿@model IntranetModelView
+@{
+    ViewData["Title"] = "Início";
+    // var Inicio = new InicioView();
+    var Agora = DateTime.Now;
+    var Mes = Agora.ToString("MMMM", new System.Globalization.CultureInfo("pt-BR"));
+}
+
+@if (Model.Alertas.Count > 0)
+{
+    <div class="grid">
+
+        @foreach (var alerta in Model.Alertas)
+        {
+            <div class="cartao alerta">
+                <div class="validade">
+                    <a>@(alerta.DataFim?.ToString("'Alerta ativo até ' dd/MM/yyyy 'às' HH:mm") ?? "--")</a>
+                </div>
+
+
+                <h3>@Html.Raw(@alerta.Titulo)</h3>
+
+                <hr>
+                <br>
+                @Html.Raw(@alerta.Descricao)
+
+            </div>
+        }
+    </div>
+}
+
+@if (Model.Aniversariantes.Count > 0)
+{
+    <div class="titulo"><a>Aniversariante(s) de @Mes</a></div>
+    <hr color="DeepSkyBlue">
+    <br />
+    <div class="grid">
+        @foreach (var colaborador in Model.Aniversariantes)
+        {
+            <div class="cartao aniversariante">
+                <div class="foto">
+                    <div class="data">
+
+                        @if (colaborador.DataNascimento.Value.Day == Agora.Day)
+                        {
+                            <i class="bi bi-balloon-fill" style="color: red; font-size: 15px;"></i>
+                            <a>Hoje</a>
+                            <i class="bi bi-balloon-fill" style="color: red; font-size: 15px;"></i>
+
+                        }
+                        else
+                        {
+                            <a>@colaborador.DataNascimento?.ToString("dd/MM")</a>
+                        }
+
+                    </div>
+
+                    <br />
+                    <img src="/img/aniversariantes/@(colaborador.UrlImagem ?? "user.png")" />
+                </div>
+                <div class="nome">
+                    @Html.Raw(@colaborador.Nome)
+                </div>
+            </div>
+        }
+    </div>
+}
+

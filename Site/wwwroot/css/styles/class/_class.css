@@ -1,0 +1,281 @@
+﻿@import url('../var/_var.css');
+
+.titulo {
+    width: 25vw;
+    display: inline-block;
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+    border-radius: 4px;
+    margin-top: calc(var(--px-max) + 35px)
+}
+
+    .titulo a {
+        color: var(--cl-main-5-cinza);
+        text-align: center;
+        pointer-events: none;
+        font-size: calc(var(--font-size) + 5px);
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+.grid {
+    text-align: center;
+    margin-bottom: var(--px-max);
+    animation: txtFlyIn var(--tr-med) ease;
+    margin: 0 7vw 0 7vw;
+}
+
+.cartao {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 15px 15px 15px;
+}
+
+
+/* Especificos */
+/* Alertas */
+.validade {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--cl-warn-1-marrom);
+    display: inline-block;
+    align-items: center;
+}
+
+.alerta {
+    text-align: left;
+    min-height: 20vh;
+    max-height: 60vh;
+    width: 35vw;
+    display: inline-block;
+    background-color: var(--cl-warn-4-laranja-claro);
+    position: relative;
+    word-break: break-word;
+    overflow: auto;
+}
+
+    .alerta h3 {
+        text-align: center;
+    }
+
+.validade a {
+    position: absolute;
+    top: 10px;
+}
+
+.validade:before {
+    font-family: "bootstrap-icons";
+    content: "\F33B";
+    color: var(--cl-warn-5-amarelo);
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.alerta hr {
+    all: initial;
+    background-color: black;
+}
+
+
+/* Aniversariantes */
+.aniversariante {
+    height: 200px;
+    width: 250px;
+    transition: var(--tr-med);
+    font-weight: bold;
+}
+
+    .aniversariante:hover {
+        background-color: MediumPurple;
+        color: white;
+        box-shadow: var(--sombra);
+        font-weight: bold;
+    }
+
+        .aniversariante:hover img {
+            border-radius: var(--rd-min);
+        }
+
+.data {
+    float: left;
+    width: 100%;
+}
+
+.foto {
+    height: 85%;
+}
+
+    .foto img {
+        height: 90%;
+        border-radius: 200px;
+        margin-top: 7px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        /*transition: all .5s ease-in-out;*/
+        transition: var(--tr-rap) var(--tr-retorno)
+    }
+
+.nome {
+    float: left;
+    bottom: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+/* Funcionarios */
+.funcionario i {
+    color: blue;
+}
+
+
+/* Sistemas */
+.sistema {
+    width: 20vw;
+    height: 17vh;
+    display: inline-block;
+    border-radius: 4px;
+    padding: var(--spacing);
+    margin: 15px;
+    /*background-color: white;*/
+    /*box-shadow: var(--sombra);*/
+    border: thin solid var(--cl-main-5-cinza);
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+.logo-sistema i {
+    position: absolute;
+    font-size: 55px;
+    /*font-size: 40px;*/
+    /*left: 1vw;
+    top: 20px;*/
+    top: 6vh;
+    left: 44%;
+    transition: all .5s ease-in-out;
+}
+
+.titulo-sistema {
+    /*width: calc(100% - );*/
+    height: 20%;
+    display: inline-block;
+    /*padding-left: 20px;*/
+    padding-top: 5px;
+    /*margin-left: 60px;*/
+    word-break: break-word;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: left;
+    overflow: auto;
+    color: var(--cl-main-5-cinza)
+}
+
+
+.descricao-sistema {
+    color: transparent;
+    user-select: none;
+    height: 55%;
+    border-bottom: thin solid black;
+    /*border-top: thin solid black;*/
+    margin-top: 10px;
+    text-align: left;
+    overflow: hidden;
+    word-break: break-word;
+    text-align: justify;
+    transition: all .5s ease-in-out;
+    border-radius: 0;
+}
+
+    .descricao-sistema a {
+        color: inherit;
+        user-select: inherit;
+        text-decoration: none;
+    }
+
+a .url-sistema {
+    width: 100%;
+    cursor: pointer;
+    /*position: absolute;*/
+    left: 3%;
+    bottom: 400px;
+    color: var(--cl-tabl-3-cinza)
+}
+
+.url-sistema {
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    height: 20px;
+}
+
+a .url-sistema::before {
+    background-color: var(--cl-main-2-azul-claro);
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 0vh;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+
+.sistema:hover a .url-sistema::before {
+    bottom: 0;
+    height: 4vh;
+}
+
+.sistema:hover .descricao-sistema {
+    overflow: auto;
+    color: black;
+    border-color: transparent;
+}
+
+.sistema:hover .logo-sistema i {
+    color: transparent !important;
+}
+
+/* Suporte */
+.suporte {
+    padding: 0;
+    margin: 10px;
+}
+
+    .suporte table {
+        padding: 0;
+        width: var(--px-max);
+        height: 380px;
+    }
+
+.lista {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-size: 12px;
+}
+
+.suporte table {
+    table-layout: fixed;
+    width: 16vw;
+}
+
+.suporte table th {
+    height: 2rem;
+}
+
+.suporte span {
+    color: var(--cl-main-2-azul-claro);
+    font-size: 13px;
+
+}
+.suporte span:before {
+    font-family: "bootstrap-icons";
+    content: '\F756';
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Intranet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\modelview\\view\\andarview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\modelview\\view\\andarview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\views\\colaborador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\views\\colaborador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\modelview\\intranetmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\modelview\\intranetmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\views\\inicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\views\\inicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\controllers\\suportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\controllers\\suportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\controllers\\sistemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\controllers\\sistemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\modelview\\view\\secaoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\modelview\\view\\secaoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\controllers\\iniciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\controllers\\iniciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Views\\Inicio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Inicio\\Index.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Views\\Inicio\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\Inicio\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T19:18:28.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Site\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T19:16:19.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Views\\Colaborador\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Colaborador\\Index.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Views\\Colaborador\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\Colaborador\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T19:16:04.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IntranetModelView.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\ModelView\\IntranetModelView.cs",
+              "RelativeDocumentMoniker": "Site\\ModelView\\IntranetModelView.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\ModelView\\IntranetModelView.cs",
+              "RelativeToolTip": "Site\\ModelView\\IntranetModelView.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:03:28.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuporteController.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Controllers\\SuporteController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\SuporteController.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Controllers\\SuporteController.cs",
+              "RelativeToolTip": "Site\\Controllers\\SuporteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:43:47.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SistemaController.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Controllers\\SistemaController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\SistemaController.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Controllers\\SistemaController.cs",
+              "RelativeToolTip": "Site\\Controllers\\SistemaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:43:28.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SecaoView.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\ModelView\\View\\SecaoView.cs",
+              "RelativeDocumentMoniker": "Site\\ModelView\\View\\SecaoView.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\ModelView\\View\\SecaoView.cs",
+              "RelativeToolTip": "Site\\ModelView\\View\\SecaoView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:21:05.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndarView.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\ModelView\\View\\AndarView.cs",
+              "RelativeDocumentMoniker": "Site\\ModelView\\View\\AndarView.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\ModelView\\View\\AndarView.cs",
+              "RelativeToolTip": "Site\\ModelView\\View\\AndarView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:19:12.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ColaboradorController.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Controllers\\ColaboradorController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\ColaboradorController.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Controllers\\ColaboradorController.cs",
+              "RelativeToolTip": "Site\\Controllers\\ColaboradorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:23:59.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InicioController.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Controllers\\InicioController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\InicioController.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Controllers\\InicioController.cs",
+              "RelativeToolTip": "Site\\Controllers\\InicioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:09:23.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

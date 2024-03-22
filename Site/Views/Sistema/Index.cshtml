@@ -1,0 +1,30 @@
+﻿@* @model List<Sistema>
+@{
+    ViewData["Title"] = "Sistema";
+    // var Sistema = new SistemaView();
+}
+
+<div class="titulo"><a>Serviços, Sistemas e Aplicações</a></div>
+<hr color="Orchid">
+<br />
+<div class="grid">
+    @foreach (var sistema in Model)
+    {
+        <div class="cartao sistema">
+            <div class="logo-sistema">@Html.Raw(sistema.TagIcon)</div>
+            <div class="titulo-sistema">
+                <span>@sistema.Titulo</span>
+            </div>
+            <div class="descricao-sistema">
+                <span>@Html.Raw(@sistema.Descricao)</span>
+            </div>
+            <a href="@Html.Raw(@sistema.Url)" target="_blank">
+                <button class="url-sistema">
+                    Clique aqui para acessar
+                </button>
+            </a>
+        </div>
+    }
+</div>
+
+ *@

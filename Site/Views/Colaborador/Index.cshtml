@@ -1,0 +1,60 @@
+﻿ @model IntranetModelView
+@{
+    ViewData["Title"] = "Funcionário";
+}
+
+@foreach(var item in Model.Colaboradores){
+    <b>@item.Nome</b>
+    <br />
+    <b>@item.Cargo?.Titulo</b><br />
+    <b>
+        @Model.Andares?.Count()
+    </b>
+}
+
+@foreach (var andar in Model.Andares?.Where(x => x.Secoes.Any()))
+{
+    <div class="titulo"><a>@andar.</a></div>
+    <hr color="Green">
+    <br />
+    @foreach (var secao in Model.Secoes?.Where(x => x.Colaboradores.Any()))
+    {
+        <div class="grid">
+            <div class="cartao funcionario">
+                <table>
+                    <caption>@secao.Titulo</caption>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Função</th>
+                            <th>Contato</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var colaborador in secao.Colaboradores.OrderBy(x => x.Ordem).ThenBy(x => x.Nome))
+                        {
+                            <tr>
+                                <td>@Html.Raw(colaborador.Nome)</td>
+                                <td>@colaborador.Cargo.Titulo</td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(colaborador.Email))
+                                    {
+                                        <a href="mailto:@(colaborador.Email)"><i class="bi bi-envelope-at"></i></a> @colaborador.Email
+                                        <br />
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(colaborador.Ramal))
+                                    {
+                                        <i class="bi bi-telephone"></i> @colaborador.Ramal
+                                        <br />
+                                    }
+                                    
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}

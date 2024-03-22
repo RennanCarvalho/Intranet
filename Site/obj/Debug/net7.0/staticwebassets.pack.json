@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Site.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\color.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\color.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\const.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\const.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\funcionario.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\funcionario.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\inicio.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\inicio.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\layout.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\layout.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\sistema.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\sistema.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\site.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\site.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\suporte.css",
+      "PackagePath": "staticwebassets\\css\\bkp\\suporte.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\admin\\admin.css",
+      "PackagePath": "staticwebassets\\css\\styles\\admin\\admin.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\animation\\_animation.css",
+      "PackagePath": "staticwebassets\\css\\styles\\animation\\_animation.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_class.css",
+      "PackagePath": "staticwebassets\\css\\styles\\class\\_class.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_menu.css",
+      "PackagePath": "staticwebassets\\css\\styles\\class\\_menu.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\fonts\\_icon.css",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\_icon.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\main.css",
+      "PackagePath": "staticwebassets\\css\\styles\\main.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\tag\\_tag.css",
+      "PackagePath": "staticwebassets\\css\\styles\\tag\\_tag.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\var\\_var.css",
+      "PackagePath": "staticwebassets\\css\\styles\\var\\_var.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Adriana.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Adriana.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\AluanaJane.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\AluanaJane.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\AnaCristinaCarlos.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\AnaCristinaCarlos.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\AnaMariaFerreira.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\AnaMariaFerreira.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\AntoniaAparecidadeOliveira.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\AntoniaAparecidadeOliveira.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\BrunodaSilvaPivato.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\BrunodaSilvaPivato.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\CarlaDaniela.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\CarlaDaniela.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\CarlosHenrique.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\CarlosHenrique.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\CelPMLeviClementedosSantos.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\CelPMLeviClementedosSantos.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Cel_Briciug.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Cel_Briciug.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\CleisonPereira.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\CleisonPereira.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\DayaneTomazdaSilva.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\DayaneTomazdaSilva.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\DonizeteAreias.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\DonizeteAreias.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Dulce .jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Dulce .jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Edna Perini.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Edna Perini.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\IsabelCristinadaSilva.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\IsabelCristinadaSilva.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\IsabelaCristinaDilai.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\IsabelaCristinaDilai.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\JenniferDeCastroSilva.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\JenniferDeCastroSilva.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\JoseAlvesGalindo.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\JoseAlvesGalindo.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\JovianoConceiçãoLima.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\JovianoConceiçãoLima.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\KatarineSantosOliveira.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\KatarineSantosOliveira.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\MarciaReginaBarbosa.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\MarciaReginaBarbosa.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Maria Valadao.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Maria Valadao.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\MariaClaraLinsdaSilva.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\MariaClaraLinsdaSilva.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Márcia_limpeza.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Márcia_limpeza.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RafaelMoreira.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RafaelMoreira.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RaquelGarcia.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RaquelGarcia.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\ReginaAffonsoGuimaraes.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\ReginaAffonsoGuimaraes.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RenataDeOliveiraBreve.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RenataDeOliveiraBreve.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RennanDeCarvalhoSilva.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RennanDeCarvalhoSilva.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RobsonDantasdosSantosdeMatos.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RobsonDantasdosSantosdeMatos.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RosauraKfouriMarcelino.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RosauraKfouriMarcelino.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\RoseliSantosSalgado.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\RoseliSantosSalgado.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Rosângela.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Rosângela.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\SaraRogerioDaSilva.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\SaraRogerioDaSilva.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Sebastião.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Sebastião.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\SimoneAparecida.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\SimoneAparecida.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Thaina.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Thaina.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\ValmirSilva.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\ValmirSilva.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Victor.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Victor.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\Viviane_cbpm.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\Viviane_cbpm.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\WilsonPinto.jpeg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\WilsonPinto.jpeg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\cabral.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\cabral.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\cbpm.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\cbpm.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\dirce.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\dirce.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\ericleonardo.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\ericleonardo.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\genericof.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\genericof.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\genericom.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\genericom.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\gil.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\gil.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\jeferson.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\jeferson.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\junior.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\junior.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\rosangela.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\rosangela.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\user.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\user.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\userF.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\userF.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\userM.png",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\userM.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\aniversariantes\\vilma.jpg",
+      "PackagePath": "staticwebassets\\img\\aniversariantes\\vilma.jpg"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\logo-cbpm-color.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-color.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\logo-cbpm.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\logo-cbpm_012024.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm_012024.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\js\\jquery-3.7.0.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.0.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Acesso Inicial ao SCST-GLPI - CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Acesso Inicial ao SCST-GLPI - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Catálogo de Serviços - CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Catálogo de Serviços - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Catálogo de Sistemas - CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Catálogo de Sistemas - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Exclusão Colaborador - CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Exclusão Colaborador - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Inclusão de Novo Colaborador - CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Inclusão de Novo Colaborador - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Documentos SCST\\Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Documentos SCST\\Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal Audio codes.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal Audio codes.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal EXP20.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal EXP20.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal T29G.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal T29G.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal T30P.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Manuais do Sistema Telefonia VoIP\\Terminal T30P.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Portal de Serviços - Site Institucional CBPM\\1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Portal de Serviços - Site Institucional CBPM\\1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Portal de Serviços - Site Institucional CBPM\\Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Portal de Serviços - Site Institucional CBPM\\Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Reuniões Virtuais e Vídeo Conferência\\Reuniões virtuais e videoconferências.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Reuniões Virtuais e Vídeo Conferência\\Reuniões virtuais e videoconferências.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Reuniões Virtuais e Vídeo Conferência\\Reuniões virtuais ou videoconferências.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Reuniões Virtuais e Vídeo Conferência\\Reuniões virtuais ou videoconferências.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Rotina Impressão de Credencial (Carteirinha) CBPM\\Rotina Impressão de Credencial (Carteirinha) CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Rotina Impressão de Credencial (Carteirinha) CBPM\\Rotina Impressão de Credencial (Carteirinha) CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Rotina Impressão de Credencial (Carteirinha) CBPM\\Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Rotina Impressão de Credencial (Carteirinha) CBPM\\Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\1 SEI SP Guia para implantação_G2.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\1 SEI SP Guia para implantação_G2.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistema Eletronico Informações SEI\\AVA e Treinamento SEI.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistema Eletronico Informações SEI\\AVA e Treinamento SEI.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Navegação no Módulo Despesas Médicas.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Navegação no Módulo Despesas Médicas.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Navegação no Módulo Jurídico.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Navegação no Módulo Jurídico.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Validação e Atualização de Cadastro de Contribuintes.pdf",
+      "PackagePath": "staticwebassets\\pdf\\Sistemas Informatizados da CPBM - InfoCBPM\\Validação e Atualização de Cadastro de Contribuintes.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Site.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Site.props",
+      "PackagePath": "build\\Site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Site.props",
+      "PackagePath": "buildMultiTargeting\\Site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Site.props",
+      "PackagePath": "buildTransitive\\Site.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

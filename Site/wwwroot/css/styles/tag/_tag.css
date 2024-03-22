@@ -1,0 +1,71 @@
+﻿body {
+    font: var(--font-size) var(--font-family);
+    height: var(--height);
+    overflow: hidden;
+    background-color: var(--cl-main-6-branco);
+    background-image: url("/img/logo-cbpm.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0
+}
+
+div {
+    border-radius: var(--rd-min);
+    word-break: break-word;
+    /*padding: var(--pd-min)*/
+}
+
+a, i {
+    text-decoration: none;
+    
+}
+
+i {
+    font-size: calc(var(--font-size) + 5px);
+}
+
+hr {
+    height: var(--px-med);
+    width: 7vw;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: var(--sombra);
+    border: var(--px-min) solid var(--cl-tabl-3-cinza);
+}
+
+th {
+    background-color: var(--cl-tabl-1-azul);
+    color: var(--cl-tabl-4-Branco);
+    text-align: center;
+    padding: var(--pd-min);
+    min-width: 15vw;
+}
+
+td {
+    padding: var(--pd-min);
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: var(--px-min) solid var(--cl-tabl-3-cinza)
+}
+
+    tbody tr:last-of-type {
+        border-bottom: var(--px-med) solid var(--cl-tabl-2-marrom-claro)
+    }
+
+caption {
+    caption-side: top;
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--cl-tabl-3-cinza);
+    color: var(--cl-tabl-4-Branco);
+    margin-bottom: 0px;
+}

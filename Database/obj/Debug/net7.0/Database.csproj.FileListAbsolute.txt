@@ -1,0 +1,16 @@
+C:\dev\Intranet\Database\bin\Debug\net7.0\Database.deps.json
+C:\dev\Intranet\Database\bin\Debug\net7.0\Database.runtimeconfig.json
+C:\dev\Intranet\Database\bin\Debug\net7.0\Database.dll
+C:\dev\Intranet\Database\bin\Debug\net7.0\Database.pdb
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.csproj.AssemblyReference.cache
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.AssemblyInfoInputs.cache
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.AssemblyInfo.cs
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.csproj.CoreCompileInputs.cache
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.dll
+C:\dev\Intranet\Database\obj\Debug\net7.0\refint\Database.dll
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.pdb
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.genruntimeconfig.cache
+C:\dev\Intranet\Database\obj\Debug\net7.0\ref\Database.dll
+C:\dev\Intranet\Database\bin\Debug\net7.0\appsettings.Development.json
+C:\dev\Intranet\Database\bin\Debug\net7.0\appsettings.json
