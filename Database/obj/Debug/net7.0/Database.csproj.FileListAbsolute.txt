@@ -14,3 +14,4 @@ C:\dev\Intranet\Database\obj\Debug\net7.0\Database.genruntimeconfig.cache
 C:\dev\Intranet\Database\obj\Debug\net7.0\ref\Database.dll
 C:\dev\Intranet\Database\bin\Debug\net7.0\appsettings.Development.json
 C:\dev\Intranet\Database\bin\Debug\net7.0\appsettings.json
+C:\dev\Intranet\Database\obj\Debug\net7.0\Database.sourcelink.json

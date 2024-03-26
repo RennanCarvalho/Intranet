@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intranet</title>
-    <link rel="stylesheet" href="~/css/styles/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles/main.css" />
 </head>
 <body>
+    <img class="background-cbpm" src="~/img/logo-cbpm-color.png" />
     <div class="cbpm">
         <img src="~/img/logo-cbpm-color.png" />
         Caixa beneficente<br />da
@@ -22,7 +23,23 @@
         @RenderBody()
     </div>
     <footer>
-        CBPM - Desde 1905 cuidando da saúde dos familiares dos policiais militares
+        <img src="~/img/logo-cbpm-branco.png" />
+        <div class="">
+             CBPM - Desde 1905 cuidando da saúde dos familiares dos policiais militares
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/@@caixabeneficentedapoliciam261" target="_blank">
+                <i class="bi bi-youtube" style="color:#CD201F;font-size: 25px;"></i>
+            </a>
+            <a href="https://www.facebook.com/caixabeneficentesp/" target="_blank">
+                <i class="bi bi-facebook" style="color: #3b5998; font-size: 25px;"></i>
+            </a>
+            <a href="https://www.instagram.com/caixabeneficente_sp/" target="_blank">
+                <i class="bi bi-instagram" style="font-size: 25px; background-image: linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"></i>
+            </a>
+
+
+        </div>
     </footer>
 </body>
 </html>

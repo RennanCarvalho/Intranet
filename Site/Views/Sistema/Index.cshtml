@@ -1,16 +1,17 @@
-﻿@* @model List<Sistema>
+﻿@model SistemaView
 @{
     ViewData["Title"] = "Sistema";
-    // var Sistema = new SistemaView();
 }
 
 <div class="titulo"><a>Serviços, Sistemas e Aplicações</a></div>
-<hr color="Orchid">
+<hr>
 <br />
 <div class="grid">
-    @foreach (var sistema in Model)
+    @foreach (var sistema in Model.Sistemas)
     {
+        @* <a href="@Html.Raw(@sistema.Url)" target="_blank"> *@
         <div class="cartao sistema">
+            
             <div class="logo-sistema">@Html.Raw(sistema.TagIcon)</div>
             <div class="titulo-sistema">
                 <span>@sistema.Titulo</span>
@@ -18,13 +19,12 @@
             <div class="descricao-sistema">
                 <span>@Html.Raw(@sistema.Descricao)</span>
             </div>
-            <a href="@Html.Raw(@sistema.Url)" target="_blank">
+            
                 <button class="url-sistema">
                     Clique aqui para acessar
                 </button>
-            </a>
         </div>
+        @* </a> *@
     }
 </div>
 
- *@

@@ -1,23 +1,14 @@
-﻿ @model IntranetModelView
+﻿@model ColaboradorView
 @{
     ViewData["Title"] = "Funcionário";
 }
 
-@foreach(var item in Model.Colaboradores){
-    <b>@item.Nome</b>
-    <br />
-    <b>@item.Cargo?.Titulo</b><br />
-    <b>
-        @Model.Andares?.Count()
-    </b>
-}
-
-@foreach (var andar in Model.Andares?.Where(x => x.Secoes.Any()))
+@foreach (var andar in Model.Andares.Where(x => x.Secoes.Any()).OrderBy(x => x.Ordem).ThenBy(x => x.Titulo))
 {
-    <div class="titulo"><a>@andar.</a></div>
-    <hr color="Green">
+    <div class="titulo"><a>@andar.Titulo</a></div>
+    <hr>
     <br />
-    @foreach (var secao in Model.Secoes?.Where(x => x.Colaboradores.Any()))
+    @foreach (var secao in andar.Secoes.Where(x => x.Colaboradores.Any()).OrderBy(x => x.Ordem).ThenBy(x => x.Titulo))
     {
         <div class="grid">
             <div class="cartao funcionario">
@@ -39,7 +30,7 @@
                                 <td>
                                     @if (!string.IsNullOrEmpty(colaborador.Email))
                                     {
-                                        <a href="mailto:@(colaborador.Email)"><i class="bi bi-envelope-at"></i></a> @colaborador.Email
+                                        <a href="mailto:@colaborador.Email"><i class="bi bi-envelope-at"></i></a> @colaborador.Email
                                         <br />
                                     }
 
@@ -48,7 +39,7 @@
                                         <i class="bi bi-telephone"></i> @colaborador.Ramal
                                         <br />
                                     }
-                                    
+
                                 </td>
                             </tr>
                         }
@@ -58,3 +49,33 @@
         </div>
     }
 }
+
+<div class="titulo"><a>Grupos de e-mail</a></div>
+<hr>
+<br />
+<div class="grid">
+    <div class="cartao funcionario">
+        <table>
+            <caption>CBPM</caption>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Email do grupo</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Grupos)
+                {
+                    <tr>
+                        <td><i class="bi bi-award" style="color:grey"></i> @item.Titulo</td>
+                        <td>
+                            <a href="mailto:@item.Email"><i class="bi bi-envelope-at"></i></a> @item.Email
+                        </td>
+                        <td>@item.Descricao</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

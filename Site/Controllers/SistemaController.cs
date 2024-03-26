@@ -1,26 +1,15 @@
-﻿using Interface;
+﻿using Intranet.Get;
 using Microsoft.AspNetCore.Mvc;
-using Model;
-using Site.ModelView;
 
 namespace Site.Controllers
 {
     public class SistemaController : Controller
     {
-        private readonly IntranetModelView _intranet;
-        public SistemaController(
-            IRepo<Alerta> alertaRepo,
-            IRepo<Andar> andarRepo,
-            IRepo<Colaborador> colaboradorRepo,
-            IRepo<Secao> secaoRepo,
-            IRepo<Sistema> sistemaRepo)
-        {
-            _intranet = new IntranetModelView(alertaRepo, andarRepo, colaboradorRepo, secaoRepo, sistemaRepo);
-        }
+        private readonly SistemaView _sistema = new SistemaView();
 
         public IActionResult Index()
         {
-            return View(_intranet);
+            return View(_sistema);
         }
     }
 }

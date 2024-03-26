@@ -1,26 +1,16 @@
 ﻿using Interface;
+using Intranet.Get;
 using Microsoft.AspNetCore.Mvc;
 using Model;
-using Site.ModelView;
 
 namespace Site.Controllers
 {
     public class ColaboradorController : Controller
     {
-        private readonly IntranetModelView _intranet;
-        public ColaboradorController(
-            IRepo<Alerta> alertaRepo,
-            IRepo<Andar> andarRepo,
-            IRepo<Colaborador> colaboradorRepo,
-            IRepo<Secao> secaoRepo,
-            IRepo<Sistema> sistemaRepo)
-        {
-            _intranet = new IntranetModelView(alertaRepo, andarRepo, colaboradorRepo, secaoRepo, sistemaRepo);
-        }
-
+        private readonly ColaboradorView _colaborador = new ColaboradorView();
         public IActionResult Index()
         {
-            return View(_intranet);
+            return View(_colaborador);
         }
 
 

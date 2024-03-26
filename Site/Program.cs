@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped(typeof(IRepo<>), typeof(Repo<>));
+//builder.Services.AddScoped(typeof(IRepo<>), typeof(Repo<>));
 
 var app = builder.Build();
 
@@ -27,6 +27,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Inicio}/{action=Index}/{id?}");
 
 app.Run();

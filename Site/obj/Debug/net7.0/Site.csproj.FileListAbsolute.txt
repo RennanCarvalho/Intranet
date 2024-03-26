@@ -70,3 +70,4 @@ C:\dev\Intranet\Site\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Ext
 C:\dev\Intranet\Site\bin\Debug\net7.0\Database.dll
 C:\dev\Intranet\Site\bin\Debug\net7.0\Database.pdb
 C:\dev\Intranet\Site\obj\Debug\net7.0\Site.csproj.Up2Date
+C:\dev\Intranet\Site\obj\Debug\net7.0\Site.sourcelink.json

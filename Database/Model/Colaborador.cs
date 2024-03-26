@@ -13,6 +13,7 @@ namespace Model
         public int? IdCargo { get; set; }
         [Display(Name = "Seção")]
         public int? IdSecao { get; set; }
+        public int? IdPosto { get; set; }
         [Required]
         [Display(Name = "Nome completo")]
         public string? Nome { get; set; }
@@ -30,5 +31,7 @@ namespace Model
         public Cargo? Cargo { get; set; }
         [ForeignKey("IdSecao")]
         public Secao? Secao { get; set; }
+        [ForeignKey("IdPosto")]
+        public Posto? Posto { get; set; }
     }
 }

@@ -1,14 +1,12 @@
-﻿@model IntranetModelView
+﻿@model InicioView
 @{
     ViewData["Title"] = "Início";
-    // var Inicio = new InicioView();
-    var Agora = DateTime.Now;
-    var Mes = Agora.ToString("MMMM", new System.Globalization.CultureInfo("pt-BR"));
+    var Mes = Model.Agora.ToString("MMMM", new System.Globalization.CultureInfo("pt-BR"));
 }
 
 @if (Model.Alertas.Count > 0)
 {
-    <div class="grid">
+    <div>
 
         @foreach (var alerta in Model.Alertas)
         {
@@ -32,7 +30,7 @@
 @if (Model.Aniversariantes.Count > 0)
 {
     <div class="titulo"><a>Aniversariante(s) de @Mes</a></div>
-    <hr color="DeepSkyBlue">
+    <hr>
     <br />
     <div class="grid">
         @foreach (var colaborador in Model.Aniversariantes)
@@ -41,7 +39,7 @@
                 <div class="foto">
                     <div class="data">
 
-                        @if (colaborador.DataNascimento.Value.Day == Agora.Day)
+                        @if (colaborador.DataNascimento.Value.Day == Model.Agora.Day)
                         {
                             <i class="bi bi-balloon-fill" style="color: red; font-size: 15px;"></i>
                             <a>Hoje</a>
@@ -65,4 +63,3 @@
         }
     </div>
 }
-

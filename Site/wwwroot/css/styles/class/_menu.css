@@ -1,22 +1,22 @@
-﻿
-
-
-.cbpm {
+﻿.cbpm {
     position: absolute;
     top: 30px;
-    font-size: 17px;
+    font-size: 15px;
     left: calc(var(--px-max) + 95px);
     text-align: left;
     color: var(--cl-main-2-azul-claro);
     pointer-events: none;
+    color: grey;
+}
+.cbpm b{
     color: black;
 }
     .cbpm img {
         position: absolute;
-        height: 105px;
+        height: 100px;
         width: auto;
         top: -30px;
-        left: -90px;
+        left: -110px;
     }
 
     footer {
@@ -28,19 +28,20 @@ menu {
     position: fixed;
     top: 30px;
     text-align: center;
+    /*text-transform: uppercase;*/
     /*background-color: var(--azul-claro-main)*/
 }
 
     menu a {
         text-decoration: none;
-        color: var(--cl-main-5-cinza);
         font-weight: bold;
         margin: 0 25px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
+        color: var(--cl-main-5-cinza);
     }
 
         menu a:hover {
-            color: var(--azul-escuro-main);
+            color: var(--cl-main-3-verde);
         }
 
 .render {
@@ -55,15 +56,35 @@ menu {
     height: 80vh;
 }
 
+footer img {
+    height: 40px;
+    position: fixed;
+    left: 50px;
+    bottom: 10px;
+}
 footer {
     position: fixed;
-    padding: 20px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: var(--cl-main-1-azul);
     color: var(--cl-main-6-branco);
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
     pointer-events: none;
+    height: 4vh;
+    padding-top: 25px;
 }
+footer .social {
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+}
+    footer .social a {
+        text-decoration: none;
+        pointer-events: stroke;
+        margin: 0 5px;
+    }
+
+

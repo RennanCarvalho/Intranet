@@ -86,9 +86,12 @@
 }
 
     .aniversariante:hover {
-        background-color: MediumPurple;
+        background-color: #1F82BF;
+        /*background-image: linear-gradient(#2C3340,#1F82BF,#58A65D,#1F82BF,#2C3340);*/
+        background-image: conic-gradient(#1F82BF,#58A65D,#1F82BF);
         color: white;
         box-shadow: var(--sombra);
+        /*transition: var(--tr-med);*/
         font-weight: bold;
     }
 
@@ -130,39 +133,63 @@
 
 
 /* Sistemas */
+
 .sistema {
     width: 20vw;
-    height: 17vh;
+    height: 20vh;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+    padding: 30px;
+    margin: 20px;
+    overflow: auto;
+}
+
+
+
+
+/*.sistema {
+    width: 25vw;
+    height: 25vh;
     display: inline-block;
     border-radius: 4px;
-    padding: var(--spacing);
+    padding: 10px;
     margin: 15px;
-    /*background-color: white;*/
+    background-color: rgb(255, 255, 255, 0);*/
     /*box-shadow: var(--sombra);*/
-    border: thin solid var(--cl-main-5-cinza);
+    /*border: thin solid var(--cl-main-5-cinza);
     transition: all 1s ease-in-out;
     position: relative;
 }
 
+
+
+
+    .sistema:hover {
+        background-color: rgb(255, 255, 255, 0.75);
+        box-shadow: var(--sombra);
+    }
+
 .logo-sistema i {
     position: absolute;
-    font-size: 55px;
+    font-size: 55px;*/
     /*font-size: 40px;*/
     /*left: 1vw;
     top: 20px;*/
-    top: 6vh;
+    /*top: 6vh;
     left: 44%;
     transition: all .5s ease-in-out;
 }
 
-.titulo-sistema {
+.titulo-sistema {*/
     /*width: calc(100% - );*/
-    height: 20%;
-    display: inline-block;
+    /*height: 20%;
+    display: inline-block;*/
+    /*background-color: white;*/
     /*padding-left: 20px;*/
-    padding-top: 5px;
+    /*padding-top: 5px;*/
     /*margin-left: 60px;*/
-    word-break: break-word;
+    /*word-break: break-word;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: left;
@@ -175,15 +202,16 @@
     color: transparent;
     user-select: none;
     height: 55%;
-    border-bottom: thin solid black;
+    border-bottom: thin solid black;*/
     /*border-top: thin solid black;*/
-    margin-top: 10px;
+    /*margin-top: 10px;
     text-align: left;
     overflow: hidden;
     word-break: break-word;
     text-align: justify;
     transition: all .5s ease-in-out;
     border-radius: 0;
+    padding: 0 5px;
 }
 
     .descricao-sistema a {
@@ -194,41 +222,25 @@
 
 a .url-sistema {
     width: 100%;
-    cursor: pointer;
+    cursor: pointer;*/
     /*position: absolute;*/
-    left: 3%;
+    /*left: 3%;
     bottom: 400px;
-    color: var(--cl-tabl-3-cinza)
+    color: var(--cl-tabl-3-cinza);
+    transition: all .5s ease-in-out;
+    border: 1px solid transparent;
 }
 
 .url-sistema {
     border: none;
     letter-spacing: 2px;
-    margin-top: 5px;
+    margin-top: 0px;
     font-weight: bold;
-    width: 100%;
-    padding: 5px;
-    background-color: transparent;
-    height: 20px;
-}
-
-a .url-sistema::before {
-    background-color: var(--cl-main-2-azul-claro);
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-    height: 0vh;
-    z-index: -1;
-    transition: all .5s ease-in-out;
-}
-
-.sistema:hover a .url-sistema::before {
-    bottom: 0;
+    width: 100%;*/
+    /*padding: 5px;*/
+    /*background-color: transparent;
     height: 4vh;
 }
-
 .sistema:hover .descricao-sistema {
     overflow: auto;
     color: black;
@@ -238,6 +250,18 @@ a .url-sistema::before {
 .sistema:hover .logo-sistema i {
     color: transparent !important;
 }
+
+.sistema:hover a button {
+    color: blue;
+    font-weight: bolder!important;
+    background-color: var(--cl-main-4-verde-claro)*/
+    /*font-size: 14px;*/
+    /*background-color: grey;*/
+/*}*/
+
+
+
+
 
 /* Suporte */
 .suporte {
@@ -260,7 +284,7 @@ a .url-sistema::before {
 
 .suporte table {
     table-layout: fixed;
-    width: 16vw;
+    width: 25vw;
 }
 
 .suporte table th {
