@@ -3,7 +3,8 @@
     ViewData["Title"] = "Funcionário";
 }
 
-@foreach (var andar in Model.Andares.Where(x => x.Secoes.Any()).OrderBy(x => x.Ordem).ThenBy(x => x.Titulo))
+
+@foreach (var andar in Model.Andares.Where(x => x.Secoes.Any()))
 {
     <div class="titulo"><a>@andar.Titulo</a></div>
     <hr>
@@ -22,10 +23,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var colaborador in secao.Colaboradores.OrderBy(x => x.Ordem).ThenBy(x => x.Nome))
+                        @foreach (var colaborador in secao.Colaboradores)
                         {
                             <tr>
-                                <td>@Html.Raw(colaborador.Nome)</td>
+                                <td>@Html.Raw(colaborador.Posto.Titulo) @Html.Raw(colaborador.Nome)</td>
                                 <td>@colaborador.Cargo.Titulo</td>
                                 <td>
                                     @if (!string.IsNullOrEmpty(colaborador.Email))

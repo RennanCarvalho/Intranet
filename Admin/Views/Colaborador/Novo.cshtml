@@ -1,0 +1,178 @@
+﻿@model Colaborador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form method="post" asp-controller="Colaborador" asp-action="Novo">
+    <div class="div-colaborador">
+
+
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-address-card"></i>
+                    </div>
+                </div>
+                <label></label>
+                <input asp-for="Nome" id="Nome" name="Nome" placeholder="Nome completo do colaborador" type="text" required="required" class="form-control">
+            </div>
+        </div>
+        <br />
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+                <input asp-for="Email" id="Email" name="Email" placeholder="Email" type="text" class="form-control" required="required">
+            </div>
+        </div>
+
+
+
+        <br />
+        <div class="form-row">
+            <label asp-for="DataNascimento"></label>
+        </div>
+        <div class="form-row">
+            <input asp-for="DataNascimento" id="DataNascimento" placeholder="Data de nascimento" type="date" class="form-control">
+        </div>
+        <br />
+        <div class="form-row">
+            <div class="form-group row-cols-md-2">
+                <label asp-for="IdCargo" class="col-form-label"></label>
+                <select asp-for="IdCargo" class="form-control">
+                    @foreach (var item in ViewBag.Cargos)
+                    {
+                        <option value="@item.Id">@item.Titulo</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group row-cols-md-auto">
+                <label asp-for="IdSecao" class="col-form-label"></label>
+                <select asp-for="IdSecao" class="form-control">
+                    @foreach (var item in ViewBag.Secoes)
+                    {
+                        <option value="@item.Id">@item.Titulo</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group row-cols-md-4">
+                <label asp-for="Posto" class="col-form-label"></label>
+                <select asp-for="IdPosto" class="form-control">
+                    @foreach (var item in ViewBag.Postos)
+                    {
+                        <option value="@item.Id">@item.Descricao</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label>Ativo</label>
+                <div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input asp-for="Ativo" name="Ativo" type="checkbox">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Salvar" />
+        </div>
+    </div>
+</form> 
+
+
+
+
+@*<form method="post" asp-controller="Colaborador" asp-action="Novo">
+    <div class="div-colaborador">
+        <div class="area-imagem">
+            <input type="image" asp-for="UrlImagem" class="form-control" />
+            <input type="file" asp-for="UrlImagem" class="form-control" />
+        </div>
+
+        <div class="row row-no-gutters">
+        <label asp-for="Nome" class="col-form-label"></label>
+        <input type="text" asp-for="Nome" class="form-control" />
+        </div>
+        <div class="row row-no-gutters">
+            <div class="col-xs-12 col-md-8">
+                <label asp-for="DataNascimento" class="col-form-label"></label>
+                <input type="date" asp-for="DataNascimento" class="form-control" />
+            </div>
+            <div class="col-xs-6 col-md-4 align-content-center">
+                <input asp-for="Ativo" class="form-check-input" type="checkbox" />
+                <label asp-for="Ativo" class="form-check-label">Ativo</label>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="area-dados-adicionais">
+            <label asp-for="IdCargo" class="col-form-label"></label>
+            <select asp-for="IdCargo" class="form-control">
+                @foreach (var item in ViewBag.Cargos)
+                {
+                    <option value="@item.Id">@item.Titulo</option>
+                }
+            </select>
+
+            <label asp-for="IdSecao" class="col-form-label"></label>
+            <select asp-for="IdSecao" class="form-control">
+                @foreach (var item in ViewBag.Secoes)
+                {
+                    <option value="@item.Id">@item.Titulo</option>
+                }
+            </select>
+            <label asp-for="IdPosto" class="col-form-label"></label>
+            <select asp-for="IdPosto" class="form-control">
+                @foreach (var item in ViewBag.Postos)
+                {
+                    <option value="@item.Id">@item.Titulo</option>
+                }
+            </select>
+
+            <label asp-for="Email" class="col-form-label"></label>
+            <input type="text" asp-for="Email" class="form-control" />
+
+            <label asp-for="Ramal" class="col-form-label"></label>
+            <input type="text" asp-for="Email" class="form-control" />
+
+
+        </div>
+        <input type="submit" class="btn btn-primary" value="Salvar" />
+    </div>
+
+</form>*@

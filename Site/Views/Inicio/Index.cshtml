@@ -19,8 +19,10 @@
                 <h3>@Html.Raw(@alerta.Titulo)</h3>
 
                 <hr>
-                <br>
-                @Html.Raw(@alerta.Descricao)
+                <div class="alerta-descricao">
+                    @Html.Raw(@alerta.Descricao)
+                </div>
+                
 
             </div>
         }

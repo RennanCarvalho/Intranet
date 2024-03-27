@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\dev\\Intranet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\wwwroot\\css\\styles\\class\\_class.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\wwwroot\\css\\styles\\class\\_class.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\colaboradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\views\\sistema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\views\\sistema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\views\\colaborador\\novo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\views\\colaborador\\novo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\wwwroot\\css\\styles\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\wwwroot\\css\\styles\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\wwwroot\\css\\styles\\tag\\_tag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\wwwroot\\css\\styles\\tag\\_tag.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +50,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Views\\Sistema\\Index.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Sistema\\Index.cshtml",
-              "ToolTip": "C:\\dev\\Intranet\\Site\\Views\\Sistema\\Index.cshtml",
-              "RelativeToolTip": "Site\\Views\\Sistema\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
+              "DocumentIndex": 4,
+              "Title": "_tag.css",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\tag\\_tag.css",
+              "RelativeDocumentMoniker": "Admin\\wwwroot\\css\\styles\\tag\\_tag.css",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\tag\\_tag.css",
+              "RelativeToolTip": "Admin\\wwwroot\\css\\styles\\tag\\_tag.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-27T19:55:12.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T19:15:51.675Z",
+              "WhenOpened": "2024-03-27T18:50:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\admin.css",
+              "RelativeDocumentMoniker": "Admin\\wwwroot\\css\\styles\\admin.css",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\admin.css",
+              "RelativeToolTip": "Admin\\wwwroot\\css\\styles\\admin.css",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-27T17:57:44.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_class.css",
-              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_class.css",
-              "RelativeDocumentMoniker": "Site\\wwwroot\\css\\styles\\class\\_class.css",
-              "ToolTip": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_class.css",
-              "RelativeToolTip": "Site\\wwwroot\\css\\styles\\class\\_class.css",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-25T19:01:04.268Z",
+              "Title": "ColaboradorController.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\Controllers\\ColaboradorController.cs",
+              "RelativeDocumentMoniker": "Admin\\Controllers\\ColaboradorController.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\Controllers\\ColaboradorController.cs",
+              "RelativeToolTip": "Admin\\Controllers\\ColaboradorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:53:58.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Novo.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\Views\\Colaborador\\Novo.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Colaborador\\Novo.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\Views\\Colaborador\\Novo.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Colaborador\\Novo.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAHYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:53:38.764Z",
               "EditorCaption": ""
             }
           ]

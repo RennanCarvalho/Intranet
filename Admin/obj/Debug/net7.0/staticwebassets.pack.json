@@ -9,8 +9,68 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\admin.css",
+      "PackagePath": "staticwebassets\\css\\styles\\admin.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\animation\\_animation.css",
+      "PackagePath": "staticwebassets\\css\\styles\\animation\\_animation.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\class\\_class.css",
+      "PackagePath": "staticwebassets\\css\\styles\\class\\_class.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\class\\_menu.css",
+      "PackagePath": "staticwebassets\\css\\styles\\class\\_menu.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\fonts\\_icon.css",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\_icon.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\styles\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\main.css",
+      "PackagePath": "staticwebassets\\css\\styles\\main.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\tag\\_tag.css",
+      "PackagePath": "staticwebassets\\css\\styles\\tag\\_tag.css"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\css\\styles\\var\\_var.css",
+      "PackagePath": "staticwebassets\\css\\styles\\var\\_var.css"
+    },
+    {
       "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\img\\logo-cbpm-background.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-background.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\img\\logo-cbpm-branco.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-branco.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\img\\logo-cbpm-color.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-color.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\img\\logo-cbpm-color_032024.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-color_032024.png"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\img\\logo-cbpm-negativo - Cópia.png",
+      "PackagePath": "staticwebassets\\img\\logo-cbpm-negativo - Cópia.png"
     },
     {
       "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\js\\site.js",

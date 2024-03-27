@@ -9,22 +9,24 @@
 <div class="grid">
     @foreach (var sistema in Model.Sistemas)
     {
-        @* <a href="@Html.Raw(@sistema.Url)" target="_blank"> *@
-        <div class="cartao sistema">
-            
-            <div class="logo-sistema">@Html.Raw(sistema.TagIcon)</div>
-            <div class="titulo-sistema">
-                <span>@sistema.Titulo</span>
+        <a href="@Html.Raw(@sistema.Url)" target="_blank">
+            <div class="cartao sistema">
+
+
+                <div class="titulo-sistema">
+                    @sistema.Titulo
+                    </div>
+                <div class="logo-sistema">@Html.Raw(sistema.TagIcon)</div>
+                <div class="descricao-sistema">
+                    <span>@Html.Raw(@sistema.Descricao)</span>
+                </div>
+                <a href="@Html.Raw(@sistema.Url)" target="_blank">
+                    <div class="clique-aqui">
+                        Acessar <i class="bi bi-box-arrow-up-right"></i>
+                    </div>
+                </a>
             </div>
-            <div class="descricao-sistema">
-                <span>@Html.Raw(@sistema.Descricao)</span>
-            </div>
-            
-                <button class="url-sistema">
-                    Clique aqui para acessar
-                </button>
-        </div>
-        @* </a> *@
+        </a>
     }
 </div>
 

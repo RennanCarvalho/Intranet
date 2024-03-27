@@ -114,7 +114,7 @@ td {
 }
 
 tbody tr {
-    border-bottom: var(--px-min) solid var(--cl-tabl-3-cinza)
+    border-bottom: var(--px-min) solid var(--cl-tabl-3-cinza);
 }
 
     tbody tr:last-of-type {
@@ -129,4 +129,5 @@ caption {
     background-color: var(--cl-tabl-3-cinza);
     color: var(--cl-tabl-4-Branco);
     margin-bottom: 0px;
+    border-radius: 7px 7px 0 0 ;
 }

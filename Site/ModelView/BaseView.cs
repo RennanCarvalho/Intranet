@@ -35,6 +35,7 @@ namespace Intranet.Get
             Colaboradores = Contexto.Colaboradores
                                     .Include(x => x.Cargo)
                                     .Include(x => x.Secao)
+                                    .Include(x => x.Posto)
                                     .OrderBy(x => x.Ordem)
                                     .ThenBy(x => x.Nome)
                                     .ToList();

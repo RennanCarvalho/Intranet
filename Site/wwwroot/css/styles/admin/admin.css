@@ -4,15 +4,15 @@
     color: white;
 }
 
-footer {
+footeradmin {
     letter-spacing: 3px !important;
 }
 
 .adm {
     padding: 0px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: white;
-    background-color: darkblue;
+    background-color: darkcyan;
     text-align: center;
     border-radius: 4px
 }
@@ -37,7 +37,7 @@ td img {
 }
 
 
-/* Detalhe */
+ Detalhe 
 .detalhe {
     height: 370px;
     width: 550px;
@@ -143,15 +143,15 @@ td img {
         border-radius: 4px;
         width: 100%;
     }
-/*        .edit button:after {
+        .edit button:after {
             font-family: "bootstrap-icons";
             content: "\F30A";
             font-size: 15px;
             padding: 5px
             
-        }*/
+        }
 
-/* Salvar */
+ Salvar 
 .salvo {
     background: #ff2b75;
     transition: 1s;

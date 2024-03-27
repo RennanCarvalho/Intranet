@@ -1,7 +1,7 @@
 ﻿.cbpm {
     position: absolute;
     top: 30px;
-    font-size: 15px;
+    font-size: 17px;
     left: calc(var(--px-max) + 95px);
     text-align: left;
     color: var(--cl-main-2-azul-claro);
@@ -28,7 +28,7 @@ menu {
     position: fixed;
     top: 30px;
     text-align: center;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     /*background-color: var(--azul-claro-main)*/
 }
 
@@ -41,7 +41,7 @@ menu {
     }
 
         menu a:hover {
-            color: var(--cl-main-3-verde);
+            color: #2C3340;
         }
 
 .render {
