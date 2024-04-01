@@ -10,15 +10,18 @@ namespace Admin.Controllers
         public ColaboradorController()
         {
         }
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             var colaboradores = _contexto.Colaboradores.Include(x => x.Cargo).Include(x => x.Secao).Include(x => x.Posto).ToList();
             return View(colaboradores);
         }
 
         [HttpGet]
-        public async Task<IActionResult> Detalhes(int? id)
+        public IActionResult Detalhes(int? id)
         {
+            ViewBag.Cargos = _contexto.Cargos.ToList();
+            ViewBag.Secoes = _contexto.Secoes.ToList();
+            ViewBag.Postos = _contexto.Postos.ToList();
             var colaborador = _contexto.Colaboradores.Where(x => x.Id == id).Include(x => x.Cargo).Include(x => x.Secao).Include(x => x.Posto).FirstOrDefault();
             return View(colaborador);
         }
@@ -29,6 +32,7 @@ namespace Admin.Controllers
             if (ModelState.IsValid)
             {
                 _contexto.Colaboradores.Update(colaborador);
+                _contexto.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             return View(colaborador);

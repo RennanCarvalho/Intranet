@@ -1,0 +1,48 @@
+﻿@model List<Alerta>
+
+<div class="titulo"><a>Lista de Alertas</a></div>
+<hr>
+<br />
+<a class="btn btn-primary" asp-controller="Alerta" asp-action="Novo">Novo Alerta</a>
+<br />
+<div class="grid">
+    <div class="cartao-admin">
+        <table id="tabela-cbpm-admin" class="display table table-striped table-bordered stripe nowrap">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Titulo</td>
+                    <td>Início</td>
+                    <td>Fim</td>
+                    <td>Ativo</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var alerta in Model)
+                {
+                    <tr>
+                        <td><a asp-controller="Alerta" asp-action="Detalhes" asp-route-id="@alerta.Id"><detalhe></detalhe></a></td>
+                        <td>@alerta.Titulo</td>
+                        <td>@alerta.DataInicio.ToString("dd/MM/yyyy")</td>
+                        <td>@alerta.DataFim?.ToString("dd/MM/yyyy")</td>
+                        <td>@(alerta.Ativo?"Sim":"Não")</td>
+                        <td><a class="btn btn-link" asp-controller="Alerta" asp-action="Excluir" asp-route-id="@alerta.Id" onclick="return confirmarExclusao()"><i class="bi bi-trash"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+
+</div>
+<br />
+@section Scripts {
+    <script>
+        function confirmarExclusao() {
+            return confirm("Tem certeza que deseja excluir esse registro?")
+        }
+    </script>
+
+}

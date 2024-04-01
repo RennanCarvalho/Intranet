@@ -13,7 +13,7 @@ namespace Intranet.Get
                                     .ToList();
 
             Alertas = Contexto.Alertas
-                                    .Where(x => x.DataInicio <= Agora && x.DataFim >= Agora && x.Ativo)
+                                    .Where(x => x.DataInicio.Date <= Agora.Date && x.DataFim.Value.Date > Agora.Date && x.Ativo)
                                     .OrderBy(X => X.DataInicio)
                                     .ThenBy(x => x.Ordem)?
                                     .ToList();

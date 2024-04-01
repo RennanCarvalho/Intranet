@@ -129,5 +129,5 @@ caption {
     background-color: var(--cl-tabl-3-cinza);
     color: var(--cl-tabl-4-Branco);
     margin-bottom: 0px;
-    border-radius: 7px 7px 0 0 ;
+    /*border-radius: 7px 7px 0 0 ;*/
 }

@@ -1,12 +1,13 @@
 ﻿thead tr {
     font-weight: bold;
-    background-color: darkgreen;
+    background-color: var(--cl-main-4-verde-claro);
     color: white;
+    white-space: nowrap;
 }
 
-footer {
+/*footer {
     letter-spacing: 3px !important;
-}
+}*/
 
 .adm {
     font-size: 13px;
@@ -29,12 +30,6 @@ td a:hover {
 td detalhe:before {
     content: "\F4DB";
     font-family: "bootstrap-icons";
-}
-
-td img {
-    width: 30px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
 }
 
 
@@ -189,3 +184,13 @@ td img {
     content: "asdf";
     font-family: "bootstrap-icons";
 }
+
+
+.cartao-admin {
+    display: inline-block;
+    /*margin: 10px;*/
+    /*padding: 5px 15px 15px 15px;*/
+}
+
+
+

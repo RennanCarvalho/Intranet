@@ -367,16 +367,18 @@ a .url-sistema {
 
 .suporte table {
     table-layout: fixed;
-    width: 25vw;
+    width: 20vw;
 }
 
     .suporte table th {
         height: 3rem;
+        font-size: 14px;
     }
 
 .suporte span {
     color: var(--cl-main-2-azul-claro);
     font-size: 13px;
+    font-weight: bold;
 }
     .suporte span:before {
         font-family: "bootstrap-icons";

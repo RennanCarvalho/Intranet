@@ -1,1 +1,104 @@
-﻿
+﻿@model Colaborador
+
+<div class="titulo"><a>Detalhes do Colaborador</a></div>
+<hr>
+<br />
+
+<form method="post" asp-controller="Colaborador" asp-action="Detalhes" >
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="DataInsercao" type="hidden"/>
+    <input asp-for="UrlImagem" type="hidden" />
+    <img src=""/>
+    <div class="div-colaborador">
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-address-card"></i>
+                    </div>
+                </div>
+                <label></label>
+                <input asp-for="Nome" id="Nome" name="Nome" placeholder="Nome completo do colaborador" type="text" required="required" class="form-control">
+            </div>
+        </div>
+        <br />
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+                <input asp-for="Email" id="Email" name="Email" placeholder="Email" type="text" class="form-control" />
+            </div>
+        </div>
+        <br />
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                </div>
+                <input asp-for="Ramal" id="Ramal" name="Ramal" placeholder="Ramal" type="text" class="form-control" />
+            </div>
+        </div>
+        <br />
+        <div class="form-row">
+            <label asp-for="DataNascimento"></label>
+        </div>
+        <div class="form-row">
+            <input asp-for="DataNascimento" id="DataNascimento" placeholder="Data de nascimento" type="date" class="form-control">
+        </div>
+        <br />
+        <div class="form-row">
+            <div class="form-group row-cols-md-2">
+                <label asp-for="IdCargo" class="col-form-label"></label>
+                <select asp-for="IdCargo" class="form-control">
+                    <option value="@Model.IdCargo">@Model.Cargo?.Titulo</option>
+                    @foreach (var item in ViewBag.Cargos)
+                    {
+                        <option value="@item.Id">@item.Titulo</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group row-cols-md-auto">
+                <label asp-for="IdSecao" class="col-form-label"></label>
+                <select asp-for="IdSecao" class="form-control">
+                    <option value="@Model.IdSecao">@Model.Secao?.Titulo</option>
+                    @foreach (var item in ViewBag.Secoes)
+                    {
+                        <option value="@item.Id">@item.Titulo</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group row-cols-md-4">
+                <label asp-for="Posto" class="col-form-label"></label>
+                <select asp-for="IdPosto" class="form-control">
+                    @foreach (var item in ViewBag.Postos)
+                    {
+                        <option value="@item.Id">@item.Descricao</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label asp-for="Ordem" class="col-form-label"></label>
+                <input asp-for="Ordem" name="Ordem" type="number" class="form-control">
+            </div>
+            <div class="form-group col-md-2">
+                <label asp-for="Ativo" class="col-form-label"></label>
+                <div class="custom-control custom-checkbox custom-control-inline">
+
+                    <input asp-for="Ativo" name="Ativo" type="checkbox">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Salvar" />
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/Colaborador'">Voltar</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,91 @@
+﻿@model Alerta
+@{
+    var hoje = DateTime.Today.Date.ToString("yyyy-MM-dd");
+    var amanha = DateTime.Today.AddDays(1).Date.ToString("yyyy-MM-dd");
+}
+<div class="titulo"><a>Novo Alerta</a></div>
+<hr>
+<br />
+
+<form method="post" asp-controller="Alerta" asp-action="Novo">
+    <img src="" />
+    <div class="div-colaborador">
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-exclamation-triangle"></i>
+                    </div>
+                </div>
+                <input asp-for="Titulo" id="Titulo" placeholder="Título do alerta" type="text" class="form-control" />
+            </div>
+        </div>
+        <br />
+        @* <input asp-for="Descricao" id="editor" role="textbox" required="required" /> *@
+        @* <textarea asp-for="Descricao" id="descricao"></textarea> *@
+        <div class="form-row">
+            <label asp-for="Descricao">Conteúdo</label>
+        </div>
+        <div id="editor" style="height: 40vh; border: 1px solid #ccc;border-radius: 0;background-color: white;"></div>
+        <input asp-for="Descricao" id="Descricao" name="Descricao" type="hidden" required />
+
+        <div class="form-group row-cols-md-4">
+            <div class="form-row">
+                <label asp-for="DataInicio"> Data início</label>
+            </div>
+            <div class="form-row">
+                <input asp-for="DataInicio" id="DataInicio" placeholder="" type="date" class="form-control" value="@hoje" />
+            </div>
+
+        </div>
+        <div class="form-group row-cols-md-4" style="margin-left: 20px;">
+            <div class="form-row">
+                <label asp-for="DataFim"> Data fim</label>
+            </div>
+            <div class="form-row">
+                <input asp-for="DataFim" id="DataFim" placeholder="" type="date" class="form-control" value="@amanha">
+            </div>
+        </div>
+        <div class="form-group col-md-2">
+            <label asp-for="Ativo" class="col-form-label"></label>
+            <div class="custom-control custom-checkbox custom-control-inline">
+
+                <input asp-for="Ativo" name="Ativo" type="checkbox" checked />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Salvar" />
+        <button type="button" class="btn btn-primary" onclick="window.location.href='/Alerta'">Voltar</button>
+    </div>
+    </div>
+</form>
+
+
+@section Scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.4/dist/quill.js"></script>
+    <script>
+        const quill = new Quill('#editor', {
+            modules: {
+                toolbar: [
+                    ['bold', 'italic', 'color', 'background'],
+                    ['link', 'blockquote', 'code-block'],
+                    [{ list: 'ordered' }, { list: 'bullet' }],
+                ],
+            },
+            theme: 'snow',
+        });
+        quill.on('text-change', function (delta, oldDelta, source) {
+            // Get HTML content from Quill editor
+            var htmlContent = document.querySelector('.ql-editor').innerHTML;
+            // Update the hidden input value with HTML content
+            document.getElementById('Descricao').value = htmlContent;
+        });
+    </script>
+}

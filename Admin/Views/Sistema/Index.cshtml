@@ -1,0 +1,46 @@
+﻿@model List<Sistema>
+
+<div class="titulo"><a>Lista de Sistemas</a></div>
+<hr>
+<br />
+<a class="btn btn-primary" asp-controller="Sistema" asp-action="Novo">Novo Sistema</a>
+<br />
+<div class="grid">
+    <div class="cartao-admin">
+        <table id="tabela-cbpm-admin" class="display table table-striped table-bordered stripe nowrap">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Titulo</td>
+                    <td>Icon</td>
+                    <td>Ativo</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sistema in Model)
+                {
+                    <tr>
+                        <td><a asp-controller="Sistema" asp-action="Detalhes" asp-route-id="@sistema.Id"><detalhe></detalhe></a></td>
+                        <td>@sistema.Titulo</td>
+                        <td>@Html.Raw(sistema.TagIcon)</td>
+                        <td>@(sistema.Ativo ? "Sim" : "Não")</td>
+                        <td><a class="btn btn-link" asp-controller="Sistema" asp-action="Excluir" asp-route-id="@sistema.Id" onclick="return confirmarExclusao()"><i class="bi bi-trash"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+
+</div>
+<br />
+@section Scripts {
+    <script>
+        function confirmarExclusao() {
+            return confirm("Tem certeza que deseja excluir esse registro?")
+        }
+    </script>
+
+}

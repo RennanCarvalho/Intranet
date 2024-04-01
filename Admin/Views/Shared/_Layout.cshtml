@@ -6,6 +6,7 @@
     <title>Intranet - Admin</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.4/dist/quill.snow.css" rel="stylesheet" />
     @* <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap.min.css" /> *@
 
     @* <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
@@ -35,11 +36,10 @@
         <div class="adm">Administrador</div>
     </div>
     <menu>
-        <a href="/Inicio/Index">Início</a>
-        <a href="/Alertas/Index">Alertas</a>
         <a href="/Colaborador/Index">Colaboradores</a>
-        <a href="/Sistema/Index">Sistemas</a>
-        <a href="/Suporte/Index">Suporte técnico</a>
+        <a href="/Alerta/Index">Alertas</a>
+        @* <a href="/Sistema/Index">Sistemas</a>
+        <a href="/Suporte/Index">Suporte técnico</a> *@
     </menu>
     <div class="render">
         @RenderBody()

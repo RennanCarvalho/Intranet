@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\js\\tinymce.js",
+      "PackagePath": "staticwebassets\\js\\tinymce.js"
+    },
+    {
       "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -255,6 +259,290 @@
     {
       "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.d.ts"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\ckeditor.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\af.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\az.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\da.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\de.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\el.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\es.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\et.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\he.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\id.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\it.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\km.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\no.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\si.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\th.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\ckeditor5\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\translations\\zh.js"
     },
     {
       "Id": "C:\\dev\\Intranet\\Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

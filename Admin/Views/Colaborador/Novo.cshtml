@@ -1,27 +1,10 @@
 ﻿@model Colaborador
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="titulo"><a>Novo Colaborador</a></div>
+<hr>
+<br />
 
 <form method="post" asp-controller="Colaborador" asp-action="Novo">
     <div class="div-colaborador">
-
-
         <div class="form-row">
             <div class="input-group">
                 <div class="input-group-prepend">
@@ -38,15 +21,23 @@
             <div class="input-group">
                 <div class="input-group-prepend">
                     <div class="input-group-text">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-align-center"></i>
                     </div>
                 </div>
-                <input asp-for="Email" id="Email" name="Email" placeholder="Email" type="text" class="form-control" required="required">
+                <input asp-for="Email" id="Email" name="Email" placeholder="Email" type="text" class="form-control" />
             </div>
         </div>
-
-
-
+        <br />
+        <div class="form-row">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                </div>
+                <input asp-for="Ramal" id="Ramal" name="Ramal" placeholder="Ramal" type="text" class="form-control" />
+            </div>
+        </div>
         <br />
         <div class="form-row">
             <label asp-for="DataNascimento"></label>
@@ -87,28 +78,23 @@
                 </select>
             </div>
             <div class="form-group col-md-2">
-                <label>Ativo</label>
-                <div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                        <input asp-for="Ativo" name="Ativo" type="checkbox">
-                    </div>
+                <label asp-for="Ordem" class="col-form-label"></label>
+                <input asp-for="Ordem" name="Ordem" type="number" class="form-control">
+            </div>
+            <div class="form-group col-md-2">
+                <label asp-for="Ativo" class="col-form-label"></label>
+                <div class="custom-control custom-checkbox custom-control-inline">
+
+                    <input asp-for="Ativo" name="Ativo" type="checkbox" checked />
                 </div>
             </div>
-
-
         </div>
-
-
-
-
-
-
-
         <div class="form-group">
             <input type="submit" class="btn btn-primary" value="Salvar" />
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/Colaborador'">Voltar</button>
         </div>
     </div>
-</form> 
+</form>
 
 
 

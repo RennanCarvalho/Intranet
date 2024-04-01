@@ -1,0 +1,14 @@
+﻿@model Dictionary<string, List<string>>
+
+<div class="grid">
+    @foreach (var chave in Model)
+    {
+        @chave.Key
+        <div class="cartao-suporte">
+            @foreach (var arquivo in chave.Value){
+                @arquivo
+                <br />
+            }
+        </div>
+    }
+</div>

@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\dev\Intranet\Admin
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/dev/Intranet/Admin/Views/Alerta/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhXERldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Intranet/Admin/Views/Alerta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Intranet/Admin/Views/Alerta/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhXE5vdm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/Intranet/Admin/Views/Colaborador/Detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3JcRGV0YWxoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/dev/Intranet/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Intranet/Admin/Views/Sistema/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lzdGVtYVxEZXRhbGhlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Intranet/Admin/Views/Sistema/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lzdGVtYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Intranet/Admin/Views/Suporte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vwb3J0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/Intranet/Admin/Views/_ViewImports.cshtml]

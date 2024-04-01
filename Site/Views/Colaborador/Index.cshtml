@@ -1,6 +1,6 @@
 ﻿@model ColaboradorView
 @{
-    ViewData["Title"] = "Funcionário";
+    ViewData["Title"] = "Colaborador";
 }
 
 
@@ -23,10 +23,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var colaborador in secao.Colaboradores)
+                        @foreach (var colaborador in secao.Colaboradores.OrderBy(x => x.Ordem).ThenBy(x => x.Nome))
                         {
                             <tr>
-                                <td>@Html.Raw(colaborador.Posto.Titulo) @Html.Raw(colaborador.Nome)</td>
+                                <td><b>@Html.Raw(colaborador.Posto.Titulo)</b> @Html.Raw(colaborador.Nome)</td>
                                 <td>@colaborador.Cargo.Titulo</td>
                                 <td>
                                     @if (!string.IsNullOrEmpty(colaborador.Email))

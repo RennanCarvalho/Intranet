@@ -1,20 +1,22 @@
 ﻿@model List<Colaborador>
 
-<div class="titulo"><a>Lista de colaboradores</a></div>
-<hr color="DarkSlateBlue">
+<div class="titulo"><a>Lista de Colaboradores</a></div>
+<hr>
+<br />
+<a class="btn btn-primary" asp-controller="Colaborador" asp-action="Novo">Novo Colaborador</a>
 <br />
 <div class="grid">
-    <div class="cartao">
+    <div class="cartao-admin">
         <table id="tabela-cbpm-admin" class="display table table-striped table-bordered stripe nowrap">
             <thead>
                 <tr>
                     <td></td>
                     <td>Nome</td>
                     <td>Email</td>
-                    <td>Foto</td>
                     <td>Ramal</td>
                     <td>Cargo</td>
                     <td>Seção</td>
+                    <td>Ativo</td>
                     <td></td>
                 </tr>
             </thead>
@@ -22,17 +24,14 @@
                 @foreach (var colaborador in Model)
                 {
                     <tr>
-                        <td><a href="./Funcionario/@colaborador.Id"><detalhe></detalhe></a></td>
+                        <td><a asp-controller="Colaborador" asp-action="Detalhes" asp-route-id="@colaborador.Id"><detalhe></detalhe></a></td>
                         <td>@Html.Raw(colaborador.Posto.Titulo) @Html.Raw(colaborador.Nome)</td>
                         <td>@colaborador.Email</td>
-                        <td>
-                            <img src="/img/aniversariantes/@(colaborador.UrlImagem ?? "user.png")" />
-                        </td>
-
                         <td>@colaborador.Ramal</td>
                         <td>@colaborador.Cargo?.Titulo</td>
                         <td>@colaborador.Secao?.Titulo</td>
-                        <td><a class="btn btn-link" asp-controller="Colaborador" asp-action="Excluir" asp-route-id="@colaborador.Id" onclick="return confirmarExclusao()">Excluir</a></td>
+                        <td>@(colaborador.Ativo?"Sim":"Não")</td>
+                        <td><a class="btn btn-link" asp-controller="Colaborador" asp-action="Excluir" asp-route-id="@colaborador.Id" onclick="return confirmarExclusao()"><i class="bi bi-trash"></i></a></td>
                     </tr>
                 }
             </tbody>
@@ -43,8 +42,6 @@
 
 </div>
 <br />
-<a class="btn btn-primary" asp-controller="Colaborador" asp-action="Novo">Novo</a>
-
 @section Scripts {
     <script>
         function confirmarExclusao() {

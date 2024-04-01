@@ -41,7 +41,7 @@ menu {
     }
 
         menu a:hover {
-            color: #2C3340;
+            color: var(--cl-main-2-azul-claro);
         }
 
 .render {
