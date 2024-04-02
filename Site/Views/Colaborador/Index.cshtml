@@ -2,8 +2,6 @@
 @{
     ViewData["Title"] = "Colaborador";
 }
-
-
 @foreach (var andar in Model.Andares.Where(x => x.Secoes.Any()))
 {
     <div class="titulo"><a>@andar.Titulo</a></div>
@@ -26,7 +24,7 @@
                         @foreach (var colaborador in secao.Colaboradores.OrderBy(x => x.Ordem).ThenBy(x => x.Nome))
                         {
                             <tr>
-                                <td><b>@Html.Raw(colaborador.Posto.Titulo)</b> @Html.Raw(colaborador.Nome)</td>
+                                <td>@Html.Raw(colaborador.Posto.Titulo) @Html.Raw(colaborador.Nome)</td>
                                 <td>@colaborador.Cargo.Titulo</td>
                                 <td>
                                     @if (!string.IsNullOrEmpty(colaborador.Email))
@@ -38,6 +36,12 @@
                                     @if (!string.IsNullOrEmpty(colaborador.Ramal))
                                     {
                                         <i class="bi bi-telephone"></i> @colaborador.Ramal
+                                        <br />
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(colaborador.Empresa?.Titulo))
+                                    {
+                                        <i class="bi bi-building"></i> @colaborador.Empresa.Titulo
                                         <br />
                                     }
 

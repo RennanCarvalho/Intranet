@@ -6,7 +6,7 @@
 <hr>
 <br />
 <div class="grid">
-    @foreach (var item in Model.Arquivos)
+    @foreach (var item in Model.Arquivos.OrderBy(x => x.Key))
     {
         <div class="cartao suporte">
             <table>
@@ -19,9 +19,9 @@
                     <tr>
                         <td>
                             <div class="lista">
-                                @foreach (var file in item.Value)
+                                @foreach (var file in item.Value.OrderBy(x => x))
                                 {
-                                    <a href="/pdf/@(item.Key)/@(file).pdf" target="_blank"><span>@file</span><br /><br /></a>
+                                    <a href="/suporte/@(item.Key)/@(file).pdf" target="_blank"><span>@file</span><br /><br /></a>
                                 }
                             </div>
                         </td>

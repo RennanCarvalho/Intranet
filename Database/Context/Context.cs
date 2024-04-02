@@ -8,6 +8,7 @@ public class Context : DbContext
     public DbSet<Alerta> Alertas { get; set; }
     public DbSet<Andar> Andares { get; set; }
     public DbSet<Cargo> Cargos { get; set; }
+    public DbSet<Empresa> Empresas { get; set; }
     public DbSet<Colaborador> Colaboradores { get; set; }
     public DbSet<Configuracao> Configuracoes { get; set; }
     public DbSet<Grupo> Grupos { get; set; }

@@ -11,6 +11,8 @@ namespace Model
         public int Id { get; set; }
         [Display(Name = "Cargo")]
         public int? IdCargo { get; set; }
+        [Display(Name = "Empresa")]
+        public int? IdEmpresa { get; set; }
         [Display(Name = "Seção")]
         public int? IdSecao { get; set; }
         public int? IdPosto { get; set; }
@@ -29,6 +31,9 @@ namespace Model
 
         [ForeignKey("IdCargo")]
         public Cargo? Cargo { get; set; }
+
+        [ForeignKey("IdEmpresa")]
+        public Empresa? Empresa { get; set; }
         [ForeignKey("IdSecao")]
         public Secao? Secao { get; set; }
         [ForeignKey("IdPosto")]

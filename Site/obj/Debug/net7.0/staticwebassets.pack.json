@@ -5,224 +5,8 @@
       "PackagePath": "staticwebassets\\Site.bundle.scp.css"
     },
     {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\1. Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\1. Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\2. Reuniões Virtuais e Vídeo Conferência\\IT-016-USU -Reuniões virtuais e videoconferências.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\2. Reuniões Virtuais e Vídeo Conferência\\IT-016-USU -Reuniões virtuais e videoconferências.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\2. Reuniões Virtuais e Vídeo Conferência\\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\2. Reuniões Virtuais e Vídeo Conferência\\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\3. Rotina Impressão de Credencial (Carteirinha) CBPM\\IT-009-USU-WIFI no ambiente CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\3. Rotina Impressão de Credencial (Carteirinha) CBPM\\IT-009-USU-WIFI no ambiente CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\4. Portal de Serviços - Site Institucional CBPM\\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\4. Portal de Serviços - Site Institucional CBPM\\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\4. Portal de Serviços - Site Institucional CBPM\\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\4. Portal de Serviços - Site Institucional CBPM\\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\5. Sistemas Informatizados da CPBM - InfoCBPM\\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-004-USU - Exclusão de Colaborador - CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-004-USU - Exclusão de Colaborador - CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-005-USU - Catálogo de Serviços - CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-005-USU - Catálogo de Serviços - CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-006-USU - Catálogo de Sistemas - CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-006-USU - Catálogo de Sistemas - CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\6. Documentos SCST\\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\6. Documentos SCST\\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\1 SEI SP _Guia para implantação_G2.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\1 SEI SP _Guia para implantação_G2.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\7. Sistema Eletronico Informações SEI\\IT-015-USU - AVA e Treinamento SEI.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\7. Sistema Eletronico Informações SEI\\IT-015-USU - AVA e Treinamento SEI.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\1.1 - Terminal Ramal T30P.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\1.1 - Terminal Ramal T30P.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\1.2 - Terminal Ramal T29G.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\1.2 - Terminal Ramal T29G.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\1.3 - Terminal Ramal EXP20.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\1.3 - Terminal Ramal EXP20.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\1.4 - Terminal Ramal Audio codes.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\1.4 - Terminal Ramal Audio codes.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\2.1 - Manual FILAH V3 - Completo PDF.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\2.1 - Manual FILAH V3 - Completo PDF.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\8. Manuais do Sistema de aplicações\\3.1 - Neo Protocolo Free.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\8. Manuais do Sistema de aplicações\\3.1 - Neo Protocolo Free.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\9. Sistema de Assistência Médica - SAM\\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\9. Sistema de Assistência Médica - SAM\\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\9. Sistema de Assistência Médica - SAM\\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\9. Sistema de Assistência Médica - SAM\\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.4 - Política de Uso de E-mail Corporativos.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.4 - Política de Uso de E-mail Corporativos.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\Suporte\\Segurança da Informação e LGPD\\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf",
-      "PackagePath": "staticwebassets\\Suporte\\Segurança da Informação e LGPD\\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\color.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\color.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\const.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\const.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\dataTables.bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\dataTables.bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\funcionario.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\funcionario.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\inicio.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\inicio.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\layout.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\layout.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\sistema.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\sistema.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\site.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\site.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\bkp\\suporte.css",
-      "PackagePath": "staticwebassets\\css\\bkp\\suporte.css"
-    },
-    {
       "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\dataTables.bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\dataTables.bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\admin\\admin.css",
-      "PackagePath": "staticwebassets\\css\\styles\\admin\\admin.css"
     },
     {
       "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\animation\\_animation.css",
@@ -549,14 +333,6 @@
       "PackagePath": "staticwebassets\\img\\logo-cbpm-color.png"
     },
     {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\logo-cbpm-color_032024.png",
-      "PackagePath": "staticwebassets\\img\\logo-cbpm-color_032024.png"
-    },
-    {
-      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\img\\logo-cbpm-negativo - Cópia.png",
-      "PackagePath": "staticwebassets\\img\\logo-cbpm-negativo - Cópia.png"
-    },
-    {
       "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\js\\dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.min.js"
     },
@@ -795,6 +571,186 @@
     {
       "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Cronograma de Fechamento Mensal CBPM\\Cronograma Fechamento Mensal - CIAF PM 2024.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Cronograma de Fechamento Mensal CBPM\\Cronograma Fechamento Mensal - CIAF PM 2024.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento - 2024.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Cronograma de Fechamento Mensal CBPM\\Cronograma de Fechamento - 2024.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-004-USU - Exclusão de Colaborador - CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-004-USU - Exclusão de Colaborador - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-005-USU - Catálogo de Serviços - CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-005-USU - Catálogo de Serviços - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-006-USU - Catálogo de Sistemas - CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-006-USU - Catálogo de Sistemas - CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Documentos SCST\\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Documentos SCST\\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\1.1 - Terminal Ramal T30P.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\1.1 - Terminal Ramal T30P.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\1.2 - Terminal Ramal T29G.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\1.2 - Terminal Ramal T29G.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\1.3 - Terminal Ramal EXP20.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\1.3 - Terminal Ramal EXP20.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\1.4 - Terminal Ramal Audio codes.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\1.4 - Terminal Ramal Audio codes.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\2.1 - Manual FILAH V3 - Completo PDF.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\2.1 - Manual FILAH V3 - Completo PDF.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Manuais do Sistema de aplicações\\3.1 - Neo Protocolo Free.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Manuais do Sistema de aplicações\\3.1 - Neo Protocolo Free.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Portal de Serviços - Site Institucional CBPM\\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Portal de Serviços - Site Institucional CBPM\\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Portal de Serviços - Site Institucional CBPM\\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Portal de Serviços - Site Institucional CBPM\\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Reuniões Virtuais e Vídeo Conferência\\IT-016-USU -Reuniões virtuais e videoconferências.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Reuniões Virtuais e Vídeo Conferência\\IT-016-USU -Reuniões virtuais e videoconferências.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Reuniões Virtuais e Vídeo Conferência\\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Reuniões Virtuais e Vídeo Conferência\\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Rotina Impressão de Credencial (Carteirinha) CBPM\\IT-009-USU-WIFI no ambiente CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Rotina Impressão de Credencial (Carteirinha) CBPM\\IT-009-USU-WIFI no ambiente CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.4 - Política de Uso de E-mail Corporativos.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.4 - Política de Uso de E-mail Corporativos.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Segurança da Informação e LGPD\\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Segurança da Informação e LGPD\\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\1 SEI SP _Guia para implantação_G2.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\1 SEI SP _Guia para implantação_G2.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\2 SEI SP Manual do Usuário.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\3 SEI SP Manual_Modulo_II_SEI_out17.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\4 SEI SP Material para capacitação dos usuários_aula_1.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\5 SEI SP Material para capacitação dos usuários_aula_2.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\6 SEI SP Material para capacitação dos usuários _Transição.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema Eletronico Informações SEI\\IT-015-USU - AVA e Treinamento SEI.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema Eletronico Informações SEI\\IT-015-USU - AVA e Treinamento SEI.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema de Assistência Médica - SAM\\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema de Assistência Médica - SAM\\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistema de Assistência Médica - SAM\\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistema de Assistência Médica - SAM\\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf"
+    },
+    {
+      "Id": "C:\\dev\\Intranet\\Site\\wwwroot\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf",
+      "PackagePath": "staticwebassets\\suporte\\Sistemas Informatizados da CPBM - InfoCBPM\\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Site.Microsoft.AspNetCore.StaticWebAssets.props",

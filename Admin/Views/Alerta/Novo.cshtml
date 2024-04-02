@@ -21,8 +21,6 @@
             </div>
         </div>
         <br />
-        @* <input asp-for="Descricao" id="editor" role="textbox" required="required" /> *@
-        @* <textarea asp-for="Descricao" id="descricao"></textarea> *@
         <div class="form-row">
             <label asp-for="Descricao">Conteúdo</label>
         </div>
@@ -54,11 +52,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
     <div class="form-group">
         <input type="submit" class="btn btn-primary" value="Salvar" />
         <button type="button" class="btn btn-primary" onclick="window.location.href='/Alerta'">Voltar</button>
@@ -82,9 +75,7 @@
             theme: 'snow',
         });
         quill.on('text-change', function (delta, oldDelta, source) {
-            // Get HTML content from Quill editor
             var htmlContent = document.querySelector('.ql-editor').innerHTML;
-            // Update the hidden input value with HTML content
             document.getElementById('Descricao').value = htmlContent;
         });
     </script>

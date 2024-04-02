@@ -6,7 +6,7 @@
 
         public Suporte()
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Suporte");
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "suporte");
             List<string>? files = new List<string>();
             foreach (var dir in Directory.GetDirectories(path))
             {

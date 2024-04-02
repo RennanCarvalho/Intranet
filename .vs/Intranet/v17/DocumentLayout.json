@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\dev\\Intranet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\views\\sistema\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\views\\sistema\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\views\\suporte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\views\\suporte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A5D284-4E27-4504-9341-E77A89B8AF74}|Database\\Database.csproj|c:\\dev\\intranet\\database\\model\\suporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A5D284-4E27-4504-9341-E77A89B8AF74}|Database\\Database.csproj|solutionrelative:database\\model\\suporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|c:\\dev\\intranet\\site\\wwwroot\\css\\styles\\class\\_class.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{25D543F4-595C-48D6-9FD0-FB41246EE495}|Site\\Site.csproj|solutionrelative:site\\wwwroot\\css\\styles\\class\\_class.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A5D284-4E27-4504-9341-E77A89B8AF74}|Database\\Database.csproj|c:\\dev\\intranet\\database\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91A5D284-4E27-4504-9341-E77A89B8AF74}|Database\\Database.csproj|solutionrelative:database\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|c:\\dev\\intranet\\admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{329D544E-6E32-4296-9C1F-BB83FF90AC10}|Admin\\Admin.csproj|solutionrelative:admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +50,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_class.css",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_class.css",
+              "RelativeDocumentMoniker": "Site\\wwwroot\\css\\styles\\class\\_class.css",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\wwwroot\\css\\styles\\class\\_class.css",
+              "RelativeToolTip": "Site\\wwwroot\\css\\styles\\class\\_class.css",
+              "ViewState": "AQIAANgAAAAAAAAAAAAAAOoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-02T17:15:41.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Suporte.cs",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Database\\Model\\Suporte.cs",
+              "RelativeDocumentMoniker": "Database\\Model\\Suporte.cs",
+              "ToolTip": "C:\\dev\\Intranet\\Database\\Model\\Suporte.cs",
+              "RelativeToolTip": "Database\\Model\\Suporte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:14:40.38Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Detalhes.cshtml",
-              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\Views\\Sistema\\Detalhes.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Sistema\\Detalhes.cshtml",
-              "ToolTip": "C:\\dev\\Intranet\\Admin\\Views\\Sistema\\Detalhes.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Sistema\\Detalhes.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFUAAAA+AAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Site\\Views\\Suporte\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Suporte\\Index.cshtml",
+              "ToolTip": "C:\\dev\\Intranet\\Site\\Views\\Suporte\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\Suporte\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T12:51:13.002Z",
+              "WhenOpened": "2024-04-02T16:47:42.915Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Admin\\appsettings.json",
+              "RelativeDocumentMoniker": "Admin\\appsettings.json",
+              "ToolTip": "C:\\dev\\Intranet\\Admin\\appsettings.json",
+              "RelativeToolTip": "Admin\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-02T16:21:00.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\Intranet\\Database\\appsettings.json",
+              "RelativeDocumentMoniker": "Database\\appsettings.json",
+              "ToolTip": "C:\\dev\\Intranet\\Database\\appsettings.json",
+              "RelativeToolTip": "Database\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-02T16:08:52.357Z"
             }
           ]
         }

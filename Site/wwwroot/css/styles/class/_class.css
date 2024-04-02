@@ -1,9 +1,8 @@
-﻿@import url('../var/_var.css');
+﻿@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .titulo {
     width: 25vw;
     display: inline-block;
-    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
     border-radius: 4px;
     margin-top: calc(var(--px-max) + 35px)
 }
@@ -31,7 +30,45 @@
 }
 
 
+
 /* Especificos */
+saudacao {
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    /*width: 15vw;*/
+    height: 4rem;
+    /*background-image: conic-gradient(#1F82BF,#58A65D,#1F82BF);*/
+    /*color: white;*/
+    line-height: 0.7;
+    /*background-color: rgb(255,255,255,0.3);*/
+    /*border: thin solid lightgrey;*/
+
+}
+
+    saudacao a {
+        margin: auto;
+        text-align: center;
+        font-family: "Lobster";
+        font-size: 2rem;
+        color: var(--cl-main-2-azul-claro);
+        /*box-shadow: var();*/
+        /*text-shadow: 2px 0px 1px rgba(100, 181, 83), 4px 0px 0px rgba(30, 127, 193), 6px 0px 0px rgba(58, 88, 59);*/
+        letter-spacing: 2px;
+        /*transform: skewY(-5deg);*/
+        /*background-image: linear-gradient(to left, #1F82BF,#58A65D,#1F82BF);*/
+        /*        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    }
+
+    saudacao i {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+
+
+
 /* Alertas */
 .validade {
     margin-bottom: 10px;
@@ -51,11 +88,9 @@
     background-color: var(--cl-warn-4-laranja-claro);
     position: relative;
     word-break: break-word;
-    /*overflow: auto;*/
 }
 .alerta h3 {
     text-align: center;
-    /*margin-bottom: 0;*/
 }
 
 .alerta-descricao {
@@ -89,15 +124,14 @@
     width: 250px;
     transition: var(--tr-med);
     font-weight: bold;
+    font-size: 15px;
 }
 
     .aniversariante:hover {
         background-color: #1F82BF;
-        /*background-image: linear-gradient(#2C3340,#1F82BF,#58A65D,#1F82BF,#2C3340);*/
         background-image: conic-gradient(#1F82BF,#58A65D,#1F82BF);
         color: white;
-        box-shadow: var(--sombra);
-        /*transition: var(--tr-med);*/
+        box-shadow: var(--sombra);        
         font-weight: bold;
     }
 
@@ -108,10 +142,11 @@
 .data {
     float: left;
     width: 100%;
+
 }
 
 .foto {
-    height: 85%;
+    height: 80%;
 }
 
     .foto img {
@@ -119,8 +154,7 @@
         border-radius: 200px;
         margin-top: 7px;
         aspect-ratio: 1/1;
-        object-fit: cover;
-        /*transition: all .5s ease-in-out;*/
+        object-fit: cover;        
         transition: var(--tr-rap) var(--tr-retorno)
     }
 
@@ -129,6 +163,7 @@
     bottom: 0;
     margin-top: 15px;
     width: 100%;
+    line-height: 1.2
 }
 
 
@@ -168,16 +203,9 @@
 
         .sistema:hover .clique-aqui {
             color: var(--cl-main-2-azul-claro);
-            /*background-image: linear-gradient(to right, #2C3340,#1F82BF,#58A65D,#1F82BF,#2C3340);*/
-            /*-webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;*/
-            /*background-image: linear-gradient(to top, #58A65D, transparent)*/
         }
 
 .logo-sistema {
-    /*position: fixed;*/
-    /*padding-top: 10px;*/
-    /*position: relative;*/
     top: 5px;
     right: 0;
     width: 1vw;
@@ -189,7 +217,7 @@
 
 .titulo-sistema {
     display: table-caption;
-    font-size: 17px;
+    font-size: 19px;
     text-align: left;
     width: 19vw;
     height: calc(2rem + 2px);
@@ -204,7 +232,7 @@
     text-align: justify;
     width: 20vw;
     height: 16vh;
-    font-size: 15px;
+    font-size: 17px;
     overflow: auto;
     visibility: hidden;
     opacity: 0;
@@ -227,124 +255,12 @@
     color: lightgrey;
     transition: all 0.5s ease-in-out;
     letter-spacing: 0.1em;
-    font-weight: bold;
-    /*font-weight: bold;*/
+    font-weight: bold;    
 }
 
     .clique-aqui i {
     }
 
-
-/*.sistema {
-    width: 25vw;
-    height: 25vh;
-    display: inline-block;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 15px;
-    background-color: rgb(255, 255, 255, 0);*/
-/*box-shadow: var(--sombra);*/
-/*border: thin solid var(--cl-main-5-cinza);
-    transition: all 1s ease-in-out;
-    position: relative;
-}
-
-
-
-
-    .sistema:hover {
-        background-color: rgb(255, 255, 255, 0.75);
-        box-shadow: var(--sombra);
-    }
-
-.logo-sistema i {
-    position: absolute;
-    font-size: 55px;*/
-/*font-size: 40px;*/
-/*left: 1vw;
-    top: 20px;*/
-/*top: 6vh;
-    left: 44%;
-    transition: all .5s ease-in-out;
-}
-
-.titulo-sistema {*/
-/*width: calc(100% - );*/
-/*height: 20%;
-    display: inline-block;*/
-/*background-color: white;*/
-/*padding-left: 20px;*/
-/*padding-top: 5px;*/
-/*margin-left: 60px;*/
-/*word-break: break-word;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: left;
-    overflow: auto;
-    color: var(--cl-main-5-cinza)
-}
-
-
-.descricao-sistema {
-    color: transparent;
-    user-select: none;
-    height: 55%;
-    border-bottom: thin solid black;*/
-/*border-top: thin solid black;*/
-/*margin-top: 10px;
-    text-align: left;
-    overflow: hidden;
-    word-break: break-word;
-    text-align: justify;
-    transition: all .5s ease-in-out;
-    border-radius: 0;
-    padding: 0 5px;
-}
-
-    .descricao-sistema a {
-        color: inherit;
-        user-select: inherit;
-        text-decoration: none;
-    }
-
-a .url-sistema {
-    width: 100%;
-    cursor: pointer;*/
-/*position: absolute;*/
-/*left: 3%;
-    bottom: 400px;
-    color: var(--cl-tabl-3-cinza);
-    transition: all .5s ease-in-out;
-    border: 1px solid transparent;
-}
-
-.url-sistema {
-    border: none;
-    letter-spacing: 2px;
-    margin-top: 0px;
-    font-weight: bold;
-    width: 100%;*/
-/*padding: 5px;*/
-/*background-color: transparent;
-    height: 4vh;
-}
-.sistema:hover .descricao-sistema {
-    overflow: auto;
-    color: black;
-    border-color: transparent;
-}
-
-.sistema:hover .logo-sistema i {
-    color: transparent !important;
-}
-
-.sistema:hover a button {
-    color: blue;
-    font-weight: bolder!important;
-    background-color: var(--cl-main-4-verde-claro)*/
-/*font-size: 14px;*/
-/*background-color: grey;*/
-/*}*/
 /* Suporte */
 .suporte {
     padding: 0;
@@ -388,5 +304,4 @@ a .url-sistema {
     }
     .suporte a span:hover {
         color: blue;
-        /*text-decoration:underline*/
     }

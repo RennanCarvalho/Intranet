@@ -155,6 +155,9 @@ namespace Database.Migrations
                     b.Property<int?>("IdCargo")
                         .HasColumnType("int");
 
+                    b.Property<int?>("IdEmpresa")
+                        .HasColumnType("int");
+
                     b.Property<int?>("IdPosto")
                         .HasColumnType("int");
 
@@ -177,6 +180,8 @@ namespace Database.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("IdCargo");
+
+                    b.HasIndex("IdEmpresa");
 
                     b.HasIndex("IdPosto");
 
@@ -201,6 +206,40 @@ namespace Database.Migrations
                     b.HasKey("Parametro");
 
                     b.ToTable("Configuracao", "adm");
+                });
+
+            modelBuilder.Entity("Model.Empresa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnOrder(0);
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("DataAtualizacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataInsercao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Descricao")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnOrder(2);
+
+                    b.Property<int>("Ordem")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Titulo")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnOrder(1);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Empresa");
                 });
 
             modelBuilder.Entity("Model.Grupo", b =>
@@ -419,6 +458,10 @@ namespace Database.Migrations
                         .WithMany()
                         .HasForeignKey("IdCargo");
 
+                    b.HasOne("Model.Empresa", "Empresa")
+                        .WithMany("Colaboradores")
+                        .HasForeignKey("IdEmpresa");
+
                     b.HasOne("Model.Posto", "Posto")
                         .WithMany()
                         .HasForeignKey("IdPosto");
@@ -428,6 +471,8 @@ namespace Database.Migrations
                         .HasForeignKey("IdSecao");
 
                     b.Navigation("Cargo");
+
+                    b.Navigation("Empresa");
 
                     b.Navigation("Posto");
 
@@ -446,6 +491,11 @@ namespace Database.Migrations
             modelBuilder.Entity("Model.Andar", b =>
                 {
                     b.Navigation("Secoes");
+                });
+
+            modelBuilder.Entity("Model.Empresa", b =>
+                {
+                    b.Navigation("Colaboradores");
                 });
 
             modelBuilder.Entity("Model.Secao", b =>

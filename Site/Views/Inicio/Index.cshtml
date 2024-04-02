@@ -2,7 +2,22 @@
 @{
     ViewData["Title"] = "Início";
     var Mes = Model.Agora.ToString("MMMM", new System.Globalization.CultureInfo("pt-BR"));
+    var hora = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time")).Hour;
+
+    var saudacao = hora < 12 ? "Bom dia" : hora < 18 ? "Boa tarde" : "Boa noite";
+    var iClass = hora < 12 ? "bi bi-brightness-high-fill" : hora < 18 ? "bi bi-brightness-alt-high-fill" : "bi bi-cloud-moon-fill";
+    var iColor = hora < 18 ? "var(--cl-warn-3-laranja)" : "purple";
+    
+    
 }
+
+<saudacao>
+    <i class="@iClass" style="color: @iColor"></i>
+    <br />
+    <a>@saudacao</a>   
+</saudacao>
+
+<br />
 
 @if (Model.Alertas.Count > 0)
 {
@@ -22,7 +37,7 @@
                 <div class="alerta-descricao">
                     @Html.Raw(@alerta.Descricao)
                 </div>
-                
+
 
             </div>
         }

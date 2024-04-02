@@ -1,149 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\color.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/color.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\color.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\const.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/const.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\const.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\dataTables.bootstrap.min.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/dataTables.bootstrap.min.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\dataTables.bootstrap.min.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\funcionario.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/funcionario.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\funcionario.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\inicio.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/inicio.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\inicio.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\layout.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/layout.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\layout.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\sistema.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/sistema.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\sistema.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\site.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/site.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\site.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\suporte.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/bkp/suporte.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\bkp\suporte.css))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\dataTables.bootstrap.min.css))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
@@ -159,22 +15,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\dataTables.bootstrap.min.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\styles\admin\admin.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>css/styles/admin/admin.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\styles\admin\admin.css))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\styles\animation\_animation.css))">
       <SourceType>Package</SourceType>
@@ -1472,38 +1312,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo-cbpm-color.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo-cbpm-color_032024.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>img/logo-cbpm-color_032024.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo-cbpm-color_032024.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo-cbpm-negativo - Cópia.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Site</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Site</BasePath>
-      <RelativePath>img/logo-cbpm-negativo - Cópia.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo-cbpm-negativo - Cópia.png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\dataTables.bootstrap.min.js))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
@@ -2480,12 +2288,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Site.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\1. Cronograma de Fechamento Mensal CBPM\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Cronograma de Fechamento Mensal CBPM\Cronograma de Fechamento - 2024.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/1. Cronograma de Fechamento Mensal CBPM/Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf</RelativePath>
+      <RelativePath>suporte/Cronograma de Fechamento Mensal CBPM/Cronograma de Fechamento - 2024.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2494,14 +2302,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\1. Cronograma de Fechamento Mensal CBPM\Cronograma de Fechamento Mensal do Faturamento CBPM- 2023.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Cronograma de Fechamento Mensal CBPM\Cronograma de Fechamento - 2024.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\2. Reuniões Virtuais e Vídeo Conferência\IT-016-USU -Reuniões virtuais e videoconferências.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Cronograma de Fechamento Mensal CBPM\Cronograma Fechamento Mensal - CIAF PM 2024.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/2. Reuniões Virtuais e Vídeo Conferência/IT-016-USU -Reuniões virtuais e videoconferências.pdf</RelativePath>
+      <RelativePath>suporte/Cronograma de Fechamento Mensal CBPM/Cronograma Fechamento Mensal - CIAF PM 2024.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2510,14 +2318,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\2. Reuniões Virtuais e Vídeo Conferência\IT-016-USU -Reuniões virtuais e videoconferências.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Cronograma de Fechamento Mensal CBPM\Cronograma Fechamento Mensal - CIAF PM 2024.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\2. Reuniões Virtuais e Vídeo Conferência\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/2. Reuniões Virtuais e Vídeo Conferência/PAP-008-USU- Reuniões virtuais ou videoconferências.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2526,14 +2334,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\2. Reuniões Virtuais e Vídeo Conferência\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\3. Rotina Impressão de Credencial (Carteirinha) CBPM\IT-009-USU-WIFI no ambiente CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/3. Rotina Impressão de Credencial (Carteirinha) CBPM/IT-009-USU-WIFI no ambiente CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2542,14 +2350,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\3. Rotina Impressão de Credencial (Carteirinha) CBPM\IT-009-USU-WIFI no ambiente CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\4. Portal de Serviços - Site Institucional CBPM\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-004-USU - Exclusão de Colaborador - CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/4. Portal de Serviços - Site Institucional CBPM/IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-004-USU - Exclusão de Colaborador - CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2558,14 +2366,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\4. Portal de Serviços - Site Institucional CBPM\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-004-USU - Exclusão de Colaborador - CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\4. Portal de Serviços - Site Institucional CBPM\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-005-USU - Catálogo de Serviços - CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/4. Portal de Serviços - Site Institucional CBPM/PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-005-USU - Catálogo de Serviços - CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2574,14 +2382,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\4. Portal de Serviços - Site Institucional CBPM\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-005-USU - Catálogo de Serviços - CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-006-USU - Catálogo de Sistemas - CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-006-USU - Catálogo de Sistemas - CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2590,14 +2398,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-006-USU - Catálogo de Sistemas - CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/IT-017-USU- Navegação no Módulo Despesas Médicas.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2606,14 +2414,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2622,14 +2430,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf</RelativePath>
+      <RelativePath>suporte/Documentos SCST/PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2638,14 +2446,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Documentos SCST\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.1 - Terminal Ramal T30P.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/1.1 - Terminal Ramal T30P.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2654,14 +2462,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.1 - Terminal Ramal T30P.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.2 - Terminal Ramal T29G.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/5. Sistemas Informatizados da CPBM - InfoCBPM/PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/1.2 - Terminal Ramal T29G.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2670,14 +2478,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\5. Sistemas Informatizados da CPBM - InfoCBPM\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.2 - Terminal Ramal T29G.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.3 - Terminal Ramal EXP20.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/1.3 - Terminal Ramal EXP20.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2686,14 +2494,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-002-USU - Acesso Inicial ao SCST-GLPI - CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.3 - Terminal Ramal EXP20.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.4 - Terminal Ramal Audio codes.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/1.4 - Terminal Ramal Audio codes.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2702,14 +2510,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-003-USU - Inclusão de Novos Colaboradores - CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\1.4 - Terminal Ramal Audio codes.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-004-USU - Exclusão de Colaborador - CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\2.1 - Manual FILAH V3 - Completo PDF.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-004-USU - Exclusão de Colaborador - CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/2.1 - Manual FILAH V3 - Completo PDF.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2718,14 +2526,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-004-USU - Exclusão de Colaborador - CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\2.1 - Manual FILAH V3 - Completo PDF.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-005-USU - Catálogo de Serviços - CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-005-USU - Catálogo de Serviços - CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2734,14 +2542,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-005-USU - Catálogo de Serviços - CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-006-USU - Catálogo de Sistemas - CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\3.1 - Neo Protocolo Free.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-006-USU - Catálogo de Sistemas - CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Manuais do Sistema de aplicações/3.1 - Neo Protocolo Free.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2750,14 +2558,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-006-USU - Catálogo de Sistemas - CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Manuais do Sistema de aplicações\3.1 - Neo Protocolo Free.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Portal de Serviços - Site Institucional CBPM\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf</RelativePath>
+      <RelativePath>suporte/Portal de Serviços - Site Institucional CBPM/IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2766,14 +2574,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\IT-007-USU - Cadastro e Acesso a Sistema CBPM .pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Portal de Serviços - Site Institucional CBPM\IT-USU-017- 1º Acesso e Navegação Portal de Serviços Site Institucional CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Portal de Serviços - Site Institucional CBPM\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Portal de Serviços - Site Institucional CBPM/PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2782,14 +2590,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\PAP-002-SUP - Rotina de Inclusão de Novos  Colaboradores, Acessos a Sistemas e Exclusão de Colaboradores CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Portal de Serviços - Site Institucional CBPM\PAP-009-USU-Gerenciamento de Conteúdo do Novo Portal de Serviços - Site Institucional CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Reuniões Virtuais e Vídeo Conferência\IT-016-USU -Reuniões virtuais e videoconferências.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/6. Documentos SCST/PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf</RelativePath>
+      <RelativePath>suporte/Reuniões Virtuais e Vídeo Conferência/IT-016-USU -Reuniões virtuais e videoconferências.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2798,14 +2606,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\6. Documentos SCST\PAP-002-SUP - Sistema de Chamados de Suporte Técnicos - SCST_GLPI.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Reuniões Virtuais e Vídeo Conferência\IT-016-USU -Reuniões virtuais e videoconferências.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\1 SEI SP _Guia para implantação_G2.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Reuniões Virtuais e Vídeo Conferência\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/1 SEI SP _Guia para implantação_G2.pdf</RelativePath>
+      <RelativePath>suporte/Reuniões Virtuais e Vídeo Conferência/PAP-008-USU- Reuniões virtuais ou videoconferências.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2814,14 +2622,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\1 SEI SP _Guia para implantação_G2.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Reuniões Virtuais e Vídeo Conferência\PAP-008-USU- Reuniões virtuais ou videoconferências.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\2 SEI SP Manual do Usuário.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Rotina Impressão de Credencial (Carteirinha) CBPM\IT-009-USU-WIFI no ambiente CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/2 SEI SP Manual do Usuário.pdf</RelativePath>
+      <RelativePath>suporte/Rotina Impressão de Credencial (Carteirinha) CBPM/IT-009-USU-WIFI no ambiente CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2830,14 +2638,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\2 SEI SP Manual do Usuário.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Rotina Impressão de Credencial (Carteirinha) CBPM\IT-009-USU-WIFI no ambiente CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\3 SEI SP Manual_Modulo_II_SEI_out17.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/3 SEI SP Manual_Modulo_II_SEI_out17.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2846,14 +2654,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\3 SEI SP Manual_Modulo_II_SEI_out17.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\4 SEI SP Material para capacitação dos usuários_aula_1.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/4 SEI SP Material para capacitação dos usuários_aula_1.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2862,14 +2670,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\4 SEI SP Material para capacitação dos usuários_aula_1.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\5 SEI SP Material para capacitação dos usuários_aula_2.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/5 SEI SP Material para capacitação dos usuários_aula_2.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2878,14 +2686,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\5 SEI SP Material para capacitação dos usuários_aula_2.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\6 SEI SP Material para capacitação dos usuários _Transição.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.4 - Política de Uso de E-mail Corporativos.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/6 SEI SP Material para capacitação dos usuários _Transição.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.4 - Política de Uso de E-mail Corporativos.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2894,14 +2702,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\6 SEI SP Material para capacitação dos usuários _Transição.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.4 - Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2910,14 +2718,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\IT-015-USU - AVA e Treinamento SEI.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/7. Sistema Eletronico Informações SEI/IT-015-USU - AVA e Treinamento SEI.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2926,14 +2734,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\7. Sistema Eletronico Informações SEI\IT-015-USU - AVA e Treinamento SEI.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.1 - Terminal Ramal T30P.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/1.1 - Terminal Ramal T30P.pdf</RelativePath>
+      <RelativePath>suporte/Segurança da Informação e LGPD/1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2942,14 +2750,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.1 - Terminal Ramal T30P.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Segurança da Informação e LGPD\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.2 - Terminal Ramal T29G.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema de Assistência Médica - SAM\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/1.2 - Terminal Ramal T29G.pdf</RelativePath>
+      <RelativePath>suporte/Sistema de Assistência Médica - SAM/IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2958,14 +2766,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.2 - Terminal Ramal T29G.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema de Assistência Médica - SAM\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.3 - Terminal Ramal EXP20.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema de Assistência Médica - SAM\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/1.3 - Terminal Ramal EXP20.pdf</RelativePath>
+      <RelativePath>suporte/Sistema de Assistência Médica - SAM/PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2974,14 +2782,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.3 - Terminal Ramal EXP20.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema de Assistência Médica - SAM\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.4 - Terminal Ramal Audio codes.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\1 SEI SP _Guia para implantação_G2.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/1.4 - Terminal Ramal Audio codes.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/1 SEI SP _Guia para implantação_G2.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2990,14 +2798,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\1.4 - Terminal Ramal Audio codes.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\1 SEI SP _Guia para implantação_G2.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\2.1 - Manual FILAH V3 - Completo PDF.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\2 SEI SP Manual do Usuário.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/2.1 - Manual FILAH V3 - Completo PDF.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/2 SEI SP Manual do Usuário.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3006,14 +2814,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\2.1 - Manual FILAH V3 - Completo PDF.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\2 SEI SP Manual do Usuário.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\3 SEI SP Manual_Modulo_II_SEI_out17.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/3 SEI SP Manual_Modulo_II_SEI_out17.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3022,14 +2830,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\2.2 - IT-011-FILAH- Navegação pelo sistema de atendimento.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\3 SEI SP Manual_Modulo_II_SEI_out17.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\3.1 - Neo Protocolo Free.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\4 SEI SP Material para capacitação dos usuários_aula_1.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/8. Manuais do Sistema de aplicações/3.1 - Neo Protocolo Free.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/4 SEI SP Material para capacitação dos usuários_aula_1.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3038,14 +2846,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\8. Manuais do Sistema de aplicações\3.1 - Neo Protocolo Free.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\4 SEI SP Material para capacitação dos usuários_aula_1.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\9. Sistema de Assistência Médica - SAM\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\5 SEI SP Material para capacitação dos usuários_aula_2.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/9. Sistema de Assistência Médica - SAM/IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/5 SEI SP Material para capacitação dos usuários_aula_2.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3054,14 +2862,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\9. Sistema de Assistência Médica - SAM\IT-008-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\5 SEI SP Material para capacitação dos usuários_aula_2.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\9. Sistema de Assistência Médica - SAM\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\6 SEI SP Material para capacitação dos usuários _Transição.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/9. Sistema de Assistência Médica - SAM/PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/6 SEI SP Material para capacitação dos usuários _Transição.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3070,14 +2878,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\9. Sistema de Assistência Médica - SAM\PAP-003-USU- Navegação no Sistema de Assistencia Médica SAM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\6 SEI SP Material para capacitação dos usuários _Transição.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3086,14 +2894,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.1 - Portaria da Política de Privacidade e Proteção de Dados CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\7 SEI SP Cartilha  Transição SP Sem Papel _SEI SP.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\IT-015-USU - AVA e Treinamento SEI.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf</RelativePath>
+      <RelativePath>suporte/Sistema Eletronico Informações SEI/IT-015-USU - AVA e Treinamento SEI.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3102,14 +2910,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.2 - Termos de Adesão e Compromisso à Política de Privacidade e Proteção de Dados CBPM.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistema Eletronico Informações SEI\IT-015-USU - AVA e Treinamento SEI.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf</RelativePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3118,14 +2926,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.3 - Portaria da Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-010-USU - Rotina de Impressão de Credencial (Carteirinha) CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.4 - Política de Uso de E-mail Corporativos.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.4 - Política de Uso de E-mail Corporativos.pdf</RelativePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/IT-017-USU- Navegação no Módulo Despesas Médicas.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3134,14 +2942,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.4 - Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-017-USU- Navegação no Módulo Despesas Médicas.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf</RelativePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3150,14 +2958,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.5 - Termos de Adesão e Compromisso à Política de Uso de E-mail Corporativos.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-019-USU-JUR- Navegação no Módulo Jurídico.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf</RelativePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3166,14 +2974,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.6 - Termo de Responsabilidade de Uso de Login-Senha do e-mail Corporativo.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\IT-USU-002- Validação e Atualização de Cadastro de Contribuintes.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Site</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site</BasePath>
-      <RelativePath>Suporte/Segurança da Informação e LGPD/1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf</RelativePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3182,7 +2990,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Suporte\Segurança da Informação e LGPD\1.7 - Termo de Confidencialidade, Sigilo e Segurança da Informação.pdf))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\PAP-001-USU- Navegação dos  Módulos -  infoCBPM.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>Site</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Site</BasePath>
+      <RelativePath>suporte/Sistemas Informatizados da CPBM - InfoCBPM/PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\suporte\Sistemas Informatizados da CPBM - InfoCBPM\PAP-006-SUP - Rotina Impressão de Credencial (Carteirinha) CBPM.pdf))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

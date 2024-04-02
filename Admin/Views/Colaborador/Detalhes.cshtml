@@ -1,14 +1,13 @@
 ﻿@model Colaborador
-
 <div class="titulo"><a>Detalhes do Colaborador</a></div>
 <hr>
 <br />
 
-<form method="post" asp-controller="Colaborador" asp-action="Detalhes" >
+<form method="post" asp-controller="Colaborador" asp-action="Detalhes">
     <input asp-for="Id" type="hidden" />
-    <input asp-for="DataInsercao" type="hidden"/>
+    <input asp-for="DataInsercao" type="hidden" />
     <input asp-for="UrlImagem" type="hidden" />
-    <img src=""/>
+    <img src="" />
     <div class="div-colaborador">
         <div class="form-row">
             <div class="input-group">
@@ -45,17 +44,25 @@
         </div>
         <br />
         <div class="form-row">
-            <label asp-for="DataNascimento"></label>
-        </div>
-        <div class="form-row">
-            <input asp-for="DataNascimento" id="DataNascimento" placeholder="Data de nascimento" type="date" class="form-control">
+            <div class="form-group row-cols-md-2">
+                <label asp-for="DataNascimento" class="col-form-label"></label>
+                <input asp-for="DataNascimento" id="DataNascimento" placeholder="Data de nascimento" type="date" class="form-control">
+            </div>
+            <div class="form-group row-cols-md-2">
+                <label asp-for="IdEmpresa" class="col-form-label"></label>
+                <select asp-for="IdEmpresa" class="form-control">
+                    @foreach (var item in ViewBag.Empresas)
+                    {
+                        <option value="@item.Id">@item.Titulo</option>
+                    }
+                </select>
+            </div>
         </div>
         <br />
         <div class="form-row">
             <div class="form-group row-cols-md-2">
                 <label asp-for="IdCargo" class="col-form-label"></label>
                 <select asp-for="IdCargo" class="form-control">
-                    <option value="@Model.IdCargo">@Model.Cargo?.Titulo</option>
                     @foreach (var item in ViewBag.Cargos)
                     {
                         <option value="@item.Id">@item.Titulo</option>
@@ -65,7 +72,6 @@
             <div class="form-group row-cols-md-auto">
                 <label asp-for="IdSecao" class="col-form-label"></label>
                 <select asp-for="IdSecao" class="form-control">
-                    <option value="@Model.IdSecao">@Model.Secao?.Titulo</option>
                     @foreach (var item in ViewBag.Secoes)
                     {
                         <option value="@item.Id">@item.Titulo</option>

@@ -29,7 +29,6 @@ menu {
     top: 30px;
     text-align: center;
     text-transform: uppercase;
-    /*background-color: var(--azul-claro-main)*/
 }
 
     menu a {
@@ -44,9 +43,13 @@ menu {
             color: var(--cl-main-2-azul-claro);
         }
 
+    menu a.ativo {
+        display: inline-block;
+        color: var(--cl-main-2-azul-claro);
+    }
+
 .render {
     margin-top: calc(var(--pd-med) + 20px);
-    /*padding-top: 30px;*/
     border-radius: 10px;
     height: calc(var(--height));
     background-color: rgb(255,255,255, 0.85);
@@ -71,7 +74,6 @@ footer {
     color: var(--cl-main-6-branco);
     text-align: center;
     font-size: 15px;
-    /*text-transform: uppercase;*/
     pointer-events: none;
     height: 4vh;
     padding-top: 25px;

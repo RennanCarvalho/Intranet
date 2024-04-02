@@ -7,24 +7,26 @@
     <link rel="stylesheet" href="~/css/styles/main.css" />
 </head>
 <body>
-    <img class="background-cbpm" src="~/img/logo-cbpm-color.png" />
+    <div class="background-cbpm">
+        <img src="~/img/logo-cbpm-color.png" />
+    </div>
     <div class="cbpm">
         <img src="~/img/logo-cbpm-color.png" />
-        Caixa beneficente<br />da
+        Caixa Beneficente<br />da
         <b>Polícia Militar</b>
     </div>
     <menu>
-        <a href="/Inicio/Index">Início</a>
-        <a href="/Colaborador/Index">Colaboradores</a>
-        <a href="/Sistema/Index">Sistemas</a>
-        <a href="/Suporte/Index">Suporte técnico</a>
+        <a href="/Inicio/Index" id="Inicio">Início</a>
+        <a href="/Colaborador/Index" id="Colaborador">Colaboradores</a>
+        <a href="/Sistema/Index" id="Sistema">Sistemas</a>
+        <a href="/Suporte/Index" id="Suporte">Suporte técnico</a>
     </menu>
     <div class="render">
         @RenderBody()
     </div>
     <footer>
         <img src="~/img/logo-cbpm-branco.png" />
-        <div class="">
+        <div>
              CBPM - Desde 1905 cuidando da saúde dos familiares dos policiais militares
         </div>
         <div class="social">
@@ -41,6 +43,22 @@
 
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", onPageReload);
+
+        function onPageReload() {
+            var nome = window.location.href.split('/')[3];
+            var menuItems = document.querySelectorAll('menu a');
+
+            menuItems.forEach(function (menuItem) {
+                if (menuItem.getAttribute("id") === nome) {
+                    menuItem.classList.add('ativo');
+                }
+            });
+        }
+
+
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

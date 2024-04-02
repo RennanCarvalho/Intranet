@@ -19,9 +19,10 @@ namespace Admin.Controllers
         [HttpGet]
         public IActionResult Detalhes(int? id)
         {
-            ViewBag.Cargos = _contexto.Cargos.ToList();
-            ViewBag.Secoes = _contexto.Secoes.ToList();
-            ViewBag.Postos = _contexto.Postos.ToList();
+            ViewBag.Cargos = _contexto.Cargos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Secoes = _contexto.Secoes.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Postos = _contexto.Postos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Empresas = _contexto.Empresas.OrderBy(x => x.Titulo).ToList();
             var colaborador = _contexto.Colaboradores.Where(x => x.Id == id).Include(x => x.Cargo).Include(x => x.Secao).Include(x => x.Posto).FirstOrDefault();
             return View(colaborador);
         }
@@ -41,9 +42,10 @@ namespace Admin.Controllers
         [HttpGet]
         public IActionResult Novo()
         {
-            ViewBag.Cargos = _contexto.Cargos.ToList();
-            ViewBag.Secoes = _contexto.Secoes.ToList();
-            ViewBag.Postos = _contexto.Postos.ToList();
+            ViewBag.Cargos = _contexto.Cargos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Secoes = _contexto.Secoes.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Postos = _contexto.Postos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Empresas = _contexto.Empresas.OrderBy(x => x.Titulo).ToList();
             return View();
         }
 
@@ -56,6 +58,11 @@ namespace Admin.Controllers
                 _contexto.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
+
+            ViewBag.Cargos = _contexto.Cargos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Secoes = _contexto.Secoes.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Postos = _contexto.Postos.OrderBy(x => x.Titulo).ToList();
+            ViewBag.Empresas = _contexto.Empresas.OrderBy(x => x.Titulo).ToList();
             return View(colaborador);
         }
 

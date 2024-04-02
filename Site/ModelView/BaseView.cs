@@ -23,6 +23,10 @@ namespace Intranet.Get
                                     .OrderBy(x => x.Ordem)
                                     .ThenBy(x => x.Titulo)
                                     .ToList();
+            Empresas = Contexto.Empresas
+                                    .OrderBy(x => x.Ordem)
+                                    .ThenBy(x => x.Titulo)
+                                    .ToList();
 
             Secoes = Contexto.Secoes
                                     .Include(x => x.Andar)
@@ -56,6 +60,7 @@ namespace Intranet.Get
         public List<Alerta>? Alertas { get; set; }
         public List<Andar>? Andares { get; set; }
         public List<Cargo>? Cargos { get; set; }
+        public List<Empresa>? Empresas { get; set; }
         public List<Secao>? Secoes { get; set; }
         public List<Sistema>? Sistemas { get; set; }
         public List<Colaborador>? Colaboradores { get; set; }

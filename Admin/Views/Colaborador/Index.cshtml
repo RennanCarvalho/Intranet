@@ -1,8 +1,8 @@
 ﻿@model List<Colaborador>
-
 <div class="titulo"><a>Lista de Colaboradores</a></div>
 <hr>
 <br />
+
 <a class="btn btn-primary" asp-controller="Colaborador" asp-action="Novo">Novo Colaborador</a>
 <br />
 <div class="grid">
@@ -30,7 +30,7 @@
                         <td>@colaborador.Ramal</td>
                         <td>@colaborador.Cargo?.Titulo</td>
                         <td>@colaborador.Secao?.Titulo</td>
-                        <td>@(colaborador.Ativo?"Sim":"Não")</td>
+                        <td>@(colaborador.Ativo ? "Sim" : "Não")</td>
                         <td><a class="btn btn-link" asp-controller="Colaborador" asp-action="Excluir" asp-route-id="@colaborador.Id" onclick="return confirmarExclusao()"><i class="bi bi-trash"></i></a></td>
                     </tr>
                 }
